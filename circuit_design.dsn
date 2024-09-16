@@ -527,16 +527,6 @@ download the executable.-->
 			<DATE></DATE>
 			<GRID spacing='100.00000' snap='1'/>
 		</DETAILS>
-		<FONT id='0'>
-			<HEIGHT>-13</HEIGHT>
-			<WIDTH>6</WIDTH>
-			<WEIGHT>400</WEIGHT>
-			<ITALIC>0</ITALIC>
-			<UNDERLINE>0</UNDERLINE>
-			<STRIKEOUT>0</STRIKEOUT>
-			<CHARSET>0</CHARSET>
-			<FACENAME>Arial</FACENAME>
-		</FONT>
 		<FONT id='1'>
 			<HEIGHT>-10</HEIGHT>
 			<WIDTH>0</WIDTH>
@@ -548,6 +538,16 @@ download the executable.-->
 			<FACENAME>Arial</FACENAME>
 		</FONT>
 		<FONT id='3'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='4'>
 			<HEIGHT>-13</HEIGHT>
 			<WIDTH>6</WIDTH>
 			<WEIGHT>400</WEIGHT>
@@ -712,7 +712,7 @@ download the executable.-->
 			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
 		</SYMBOL>
 		<WIRE a='37.00000,24.00000' b='40.00000,24.00000'/>
-		<TEXT pos='40.00000,34.00000' direction='3' font='3' color='000000'>AND</TEXT>
+		<TEXT pos='40.00000,34.00000' direction='3' font='4' color='000000'>AND</TEXT>
 		<WIRE a='48.00000,28.00000' b='40.00000,28.00000'/>
 		<WIRE a='48.00000,20.00000' b='40.00000,20.00000'/>
 		<WIRE a='40.00000,24.00000' b='40.00000,28.00000'/>
@@ -739,7 +739,7 @@ download the executable.-->
 		<JUNCTION pos='34.00000,54.00000'/>
 		<WIRE a='34.00000,54.00000' b='26.00000,54.00000'/>
 		<WIRE a='34.00000,50.00000' b='34.00000,54.00000'/>
-		<TEXT pos='40.00000,64.00000' direction='3' font='3' color='000000'>NOT</TEXT>
+		<TEXT pos='40.00000,64.00000' direction='3' font='4' color='000000'>NOT</TEXT>
 		<SYMBOL id='1' pos='52.00000,96.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
@@ -797,7 +797,7 @@ download the executable.-->
 		<WIRE a='30.00000,94.00000' b='30.00000,100.00000'/>
 		<WIRE a='34.00000,86.00000' b='22.00000,86.00000'/>
 		<WIRE a='34.00000,114.00000' b='22.00000,114.00000'/>
-		<TEXT pos='40.00000,122.00000' direction='3' font='3' color='000000'>OR</TEXT>
+		<TEXT pos='40.00000,122.00000' direction='3' font='4' color='000000'>OR</TEXT>
 		<SYMBOL id='1' pos='52.00000,144.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
@@ -849,7 +849,7 @@ download the executable.-->
 		<WIRE a='60.00000,158.00000' b='51.00000,158.00000'/>
 		<WIRE a='34.00000,142.00000' b='30.00000,142.00000'/>
 		<WIRE a='30.00000,154.00000' b='34.00000,154.00000'/>
-		<TEXT pos='40.00000,170.00000' direction='3' font='3' color='000000'>OR</TEXT>
+		<TEXT pos='40.00000,170.00000' direction='3' font='4' color='000000'>OR</TEXT>
 		<WIRE a='34.00000,134.00000' b='30.00000,134.00000'/>
 		<WIRE a='30.00000,138.00000' b='30.00000,142.00000'/>
 		<WIRE a='34.00000,162.00000' b='30.00000,162.00000'/>
@@ -911,7 +911,7 @@ download the executable.-->
 		<WIRE a='144.00000,40.00000' b='135.00000,40.00000'/>
 		<WIRE a='118.00000,24.00000' b='114.00000,24.00000'/>
 		<WIRE a='114.00000,36.00000' b='118.00000,36.00000'/>
-		<TEXT pos='146.00000,48.00000' direction='3' font='3' color='000000'>NOR</TEXT>
+		<TEXT pos='146.00000,48.00000' direction='3' font='4' color='000000'>NOR</TEXT>
 		<WIRE a='118.00000,16.00000' b='114.00000,16.00000'/>
 		<WIRE a='114.00000,20.00000' b='114.00000,24.00000'/>
 		<WIRE a='118.00000,44.00000' b='114.00000,44.00000'/>
@@ -943,7 +943,22 @@ download the executable.-->
 		<WIRE a='161.00000,30.00000' b='168.00000,30.00000'/>
 		<JUNCTION pos='168.00000,30.00000'/>
 		<WIRE a='168.00000,26.00000' b='168.00000,30.00000'/>
-		<SYMBOL id='1' pos='136.00000,90.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<TEXT pos='16.00000,22.00000' direction='3' font='4' color='000000'>A</TEXT>
+		<TEXT pos='22.00000,56.00000' direction='3' font='4' color='000000'>A</TEXT>
+		<TEXT pos='18.00000,88.00000' direction='3' font='4' color='000000'>A</TEXT>
+		<TEXT pos='18.00000,140.00000' direction='3' font='4' color='000000'>A</TEXT>
+		<TEXT pos='102.00000,22.00000' direction='3' font='4' color='000000'>A</TEXT>
+		<TEXT pos='16.00000,30.00000' direction='3' font='4' color='000000'>B</TEXT>
+		<TEXT pos='18.00000,116.00000' direction='3' font='4' color='000000'>B</TEXT>
+		<TEXT pos='18.00000,160.00000' direction='3' font='4' color='000000'>B</TEXT>
+		<TEXT pos='102.00000,42.00000' direction='3' font='4' color='000000'>B</TEXT>
+		<TEXT pos='18.00000,102.00000' direction='3' font='4' color='000000'>1</TEXT>
+		<TEXT pos='66.00000,26.00000' direction='3' font='4' color='000000'>C</TEXT>
+		<TEXT pos='60.00000,56.00000' direction='3' font='4' color='000000'>C</TEXT>
+		<TEXT pos='78.00000,102.00000' direction='3' font='4' color='000000'>C</TEXT>
+		<TEXT pos='80.00000,150.00000' direction='3' font='4' color='000000'>C</TEXT>
+		<TEXT pos='192.00000,32.00000' direction='3' font='4' color='000000'>C</TEXT>
+		<SYMBOL id='1' pos='132.00000,100.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
@@ -958,7 +973,7 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
 			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
 		</SYMBOL>
-		<SYMBOL id='1' pos='136.00000,110.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='1' pos='158.00000,86.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
@@ -973,7 +988,7 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
 			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
 		</SYMBOL>
-		<SYMBOL id='1' pos='162.00000,100.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='1' pos='158.00000,114.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
@@ -988,19 +1003,7 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
 			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
 		</SYMBOL>
-		<WIRE a='135.00000,84.00000' b='144.00000,84.00000'/>
-		<WIRE a='144.00000,84.00000' b='144.00000,90.00000'/>
-		<WIRE a='144.00000,98.00000' b='144.00000,104.00000'/>
-		<WIRE a='144.00000,104.00000' b='135.00000,104.00000'/>
-		<WIRE a='118.00000,88.00000' b='114.00000,88.00000'/>
-		<WIRE a='114.00000,100.00000' b='118.00000,100.00000'/>
-		<WIRE a='118.00000,80.00000' b='114.00000,80.00000'/>
-		<WIRE a='114.00000,84.00000' b='114.00000,88.00000'/>
-		<WIRE a='118.00000,108.00000' b='114.00000,108.00000'/>
-		<WIRE a='114.00000,104.00000' b='114.00000,100.00000'/>
-		<WIRE a='114.00000,84.00000' b='106.00000,84.00000'/>
-		<WIRE a='114.00000,80.00000' b='114.00000,84.00000'/>
-		<SYMBOL id='1' pos='136.00000,70.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='1' pos='184.00000,100.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
@@ -1015,7 +1018,21 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
 			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
 		</SYMBOL>
-		<SYMBOL id='1' pos='180.00000,74.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<WIRE a='131.00000,94.00000' b='140.00000,94.00000'/>
+		<WIRE a='140.00000,94.00000' b='140.00000,84.00000'/>
+		<WIRE a='140.00000,104.00000' b='140.00000,94.00000'/>
+		<WIRE a='157.00000,80.00000' b='157.00000,90.00000'/>
+		<WIRE a='157.00000,90.00000' b='166.00000,90.00000'/>
+		<WIRE a='166.00000,98.00000' b='157.00000,98.00000'/>
+		<WIRE a='157.00000,98.00000' b='157.00000,108.00000'/>
+		<WIRE a='140.00000,76.00000' b='114.00000,76.00000'/>
+		<WIRE a='114.00000,76.00000' b='114.00000,90.00000'/>
+		<WIRE a='114.00000,98.00000' b='114.00000,112.00000'/>
+		<WIRE a='114.00000,76.00000' b='106.00000,76.00000'/>
+		<WIRE a='114.00000,112.00000' b='140.00000,112.00000'/>
+		<WIRE a='106.00000,112.00000' b='114.00000,112.00000'/>
+		<TEXT pos='144.00000,118.00000' direction='3' font='3' color='000000'>XOR</TEXT>
+		<SYMBOL id='1' pos='132.00000,156.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
@@ -1030,10 +1047,7 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
 			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
 		</SYMBOL>
-		<WIRE a='162.00000,72.00000' b='162.00000,94.00000'/>
-		<WIRE a='162.00000,94.00000' b='161.00000,94.00000'/>
-		<WIRE a='135.00000,64.00000' b='162.00000,64.00000'/>
-		<SYMBOL id='1' pos='212.00000,74.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='1' pos='158.00000,142.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
@@ -1048,21 +1062,7 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
 			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
 		</SYMBOL>
-		<WIRE a='194.00000,64.00000' b='186.00000,64.00000'/>
-		<WIRE a='186.00000,68.00000' b='186.00000,72.00000'/>
-		<WIRE a='186.00000,72.00000' b='194.00000,72.00000'/>
-		<TEXT pos='192.00000,78.00000' direction='3' font='3' color='000000'>NOT</TEXT>
-		<WIRE a='179.00000,68.00000' b='186.00000,68.00000'/>
-		<WIRE a='186.00000,64.00000' b='186.00000,68.00000'/>
-		<WIRE a='106.00000,84.00000' b='106.00000,60.00000'/>
-		<WIRE a='106.00000,60.00000' b='118.00000,60.00000'/>
-		<WIRE a='106.00000,60.00000' b='96.00000,60.00000'/>
-		<WIRE a='102.00000,68.00000' b='96.00000,68.00000'/>
-		<WIRE a='102.00000,68.00000' b='102.00000,104.00000'/>
-		<WIRE a='118.00000,68.00000' b='102.00000,68.00000'/>
-		<WIRE a='102.00000,104.00000' b='114.00000,104.00000'/>
-		<WIRE a='114.00000,108.00000' b='114.00000,104.00000'/>
-		<SYMBOL id='1' pos='138.00000,154.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='1' pos='158.00000,170.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
@@ -1077,7 +1077,7 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
 			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
 		</SYMBOL>
-		<SYMBOL id='1' pos='138.00000,174.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='1' pos='184.00000,156.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
@@ -1092,7 +1092,21 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
 			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
 		</SYMBOL>
-		<SYMBOL id='1' pos='164.00000,164.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<WIRE a='131.00000,150.00000' b='140.00000,150.00000'/>
+		<WIRE a='140.00000,150.00000' b='140.00000,140.00000'/>
+		<WIRE a='140.00000,160.00000' b='140.00000,150.00000'/>
+		<WIRE a='157.00000,136.00000' b='157.00000,146.00000'/>
+		<WIRE a='157.00000,146.00000' b='166.00000,146.00000'/>
+		<WIRE a='166.00000,154.00000' b='157.00000,154.00000'/>
+		<WIRE a='157.00000,154.00000' b='157.00000,164.00000'/>
+		<WIRE a='140.00000,132.00000' b='114.00000,132.00000'/>
+		<WIRE a='114.00000,132.00000' b='114.00000,146.00000'/>
+		<WIRE a='114.00000,154.00000' b='114.00000,168.00000'/>
+		<WIRE a='114.00000,132.00000' b='106.00000,132.00000'/>
+		<WIRE a='114.00000,168.00000' b='140.00000,168.00000'/>
+		<WIRE a='106.00000,168.00000' b='114.00000,168.00000'/>
+		<TEXT pos='144.00000,174.00000' direction='3' font='3' color='000000'>XNOR</TEXT>
+		<SYMBOL id='1' pos='202.00000,156.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
 			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
 			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
@@ -1107,265 +1121,16 @@ download the executable.-->
 			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
 			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
 		</SYMBOL>
-		<WIRE a='137.00000,148.00000' b='146.00000,148.00000'/>
-		<WIRE a='146.00000,148.00000' b='146.00000,154.00000'/>
-		<WIRE a='146.00000,162.00000' b='146.00000,168.00000'/>
-		<WIRE a='146.00000,168.00000' b='137.00000,168.00000'/>
-		<WIRE a='120.00000,152.00000' b='116.00000,152.00000'/>
-		<WIRE a='116.00000,164.00000' b='120.00000,164.00000'/>
-		<WIRE a='120.00000,144.00000' b='116.00000,144.00000'/>
-		<WIRE a='116.00000,148.00000' b='116.00000,152.00000'/>
-		<WIRE a='120.00000,172.00000' b='116.00000,172.00000'/>
-		<WIRE a='116.00000,168.00000' b='116.00000,164.00000'/>
-		<WIRE a='116.00000,148.00000' b='108.00000,148.00000'/>
-		<WIRE a='116.00000,144.00000' b='116.00000,148.00000'/>
-		<SYMBOL id='1' pos='138.00000,134.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<SYMBOL id='1' pos='182.00000,138.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<WIRE a='164.00000,136.00000' b='164.00000,158.00000'/>
-		<WIRE a='164.00000,158.00000' b='163.00000,158.00000'/>
-		<WIRE a='137.00000,128.00000' b='164.00000,128.00000'/>
-		<WIRE a='181.00000,132.00000' b='188.00000,132.00000'/>
-		<WIRE a='108.00000,148.00000' b='108.00000,124.00000'/>
-		<WIRE a='108.00000,124.00000' b='120.00000,124.00000'/>
-		<WIRE a='108.00000,124.00000' b='98.00000,124.00000'/>
-		<WIRE a='104.00000,132.00000' b='98.00000,132.00000'/>
-		<WIRE a='104.00000,132.00000' b='104.00000,168.00000'/>
-		<WIRE a='120.00000,132.00000' b='104.00000,132.00000'/>
-		<WIRE a='104.00000,168.00000' b='116.00000,168.00000'/>
-		<WIRE a='116.00000,172.00000' b='116.00000,168.00000'/>
-		<TEXT pos='146.00000,110.00000' direction='3' font='3' color='000000'>XOR</TEXT>
-		<TEXT pos='144.00000,176.00000' direction='3' font='3' color='000000'>XNOR</TEXT>
-		<JUNCTION pos='102.00000,68.00000'/>
-		<JUNCTION pos='114.00000,104.00000'/>
-		<JUNCTION pos='104.00000,132.00000'/>
-		<JUNCTION pos='116.00000,168.00000'/>
-		<JUNCTION pos='106.00000,60.00000'/>
-		<JUNCTION pos='108.00000,124.00000'/>
-		<JUNCTION pos='114.00000,84.00000'/>
-		<JUNCTION pos='116.00000,148.00000'/>
-		<JUNCTION pos='186.00000,68.00000'/>
-		<TEXT pos='16.00000,22.00000' direction='3' font='3' color='000000'>A</TEXT>
-		<TEXT pos='22.00000,56.00000' direction='3' font='3' color='000000'>A</TEXT>
-		<TEXT pos='18.00000,88.00000' direction='3' font='3' color='000000'>A</TEXT>
-		<TEXT pos='18.00000,140.00000' direction='3' font='3' color='000000'>A</TEXT>
-		<TEXT pos='102.00000,22.00000' direction='3' font='3' color='000000'>A</TEXT>
-		<TEXT pos='92.00000,62.00000' direction='3' font='3' color='000000'>A</TEXT>
-		<TEXT pos='92.00000,126.00000' direction='3' font='3' color='000000'>A</TEXT>
-		<TEXT pos='16.00000,30.00000' direction='3' font='3' color='000000'>B</TEXT>
-		<TEXT pos='18.00000,116.00000' direction='3' font='3' color='000000'>B</TEXT>
-		<TEXT pos='18.00000,160.00000' direction='3' font='3' color='000000'>B</TEXT>
-		<TEXT pos='92.00000,134.00000' direction='3' font='3' color='000000'>B</TEXT>
-		<TEXT pos='92.00000,70.00000' direction='3' font='3' color='000000'>B</TEXT>
-		<TEXT pos='102.00000,42.00000' direction='3' font='3' color='000000'>B</TEXT>
-		<TEXT pos='18.00000,102.00000' direction='3' font='3' color='000000'>1</TEXT>
-		<TEXT pos='66.00000,26.00000' direction='3' font='3' color='000000'>C</TEXT>
-		<TEXT pos='60.00000,56.00000' direction='3' font='3' color='000000'>C</TEXT>
-		<TEXT pos='78.00000,102.00000' direction='3' font='3' color='000000'>C</TEXT>
-		<TEXT pos='80.00000,150.00000' direction='3' font='3' color='000000'>C</TEXT>
-		<TEXT pos='192.00000,32.00000' direction='3' font='3' color='000000'>C</TEXT>
-		<TEXT pos='214.00000,70.00000' direction='3' font='3' color='000000'>C</TEXT>
-		<TEXT pos='192.00000,134.00000' direction='3' font='3' color='000000'>C</TEXT>
-		<SYMBOL id='1' pos='228.00000,32.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<SYMBOL id='1' pos='254.00000,18.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<SYMBOL id='1' pos='254.00000,46.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<SYMBOL id='1' pos='280.00000,32.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<WIRE a='227.00000,26.00000' b='236.00000,26.00000'/>
-		<WIRE a='236.00000,26.00000' b='236.00000,16.00000'/>
-		<WIRE a='236.00000,36.00000' b='236.00000,26.00000'/>
-		<WIRE a='253.00000,12.00000' b='253.00000,22.00000'/>
-		<WIRE a='253.00000,22.00000' b='262.00000,22.00000'/>
-		<WIRE a='262.00000,30.00000' b='253.00000,30.00000'/>
-		<WIRE a='253.00000,30.00000' b='253.00000,40.00000'/>
-		<WIRE a='236.00000,8.00000' b='210.00000,8.00000'/>
-		<WIRE a='210.00000,8.00000' b='210.00000,22.00000'/>
-		<WIRE a='210.00000,30.00000' b='210.00000,44.00000'/>
-		<WIRE a='210.00000,8.00000' b='202.00000,8.00000'/>
-		<WIRE a='210.00000,44.00000' b='236.00000,44.00000'/>
-		<WIRE a='202.00000,44.00000' b='210.00000,44.00000'/>
-		<TEXT pos='240.00000,50.00000' direction='3' font='0' color='000000'>XOR</TEXT>
-		<JUNCTION pos='210.00000,44.00000'/>
-		<JUNCTION pos='210.00000,8.00000'/>
-		<JUNCTION pos='236.00000,26.00000'/>
-		<SYMBOL id='1' pos='222.00000,110.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<SYMBOL id='1' pos='248.00000,96.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<SYMBOL id='1' pos='248.00000,124.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<SYMBOL id='1' pos='274.00000,110.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<WIRE a='221.00000,104.00000' b='230.00000,104.00000'/>
-		<WIRE a='230.00000,104.00000' b='230.00000,94.00000'/>
-		<WIRE a='230.00000,114.00000' b='230.00000,104.00000'/>
-		<WIRE a='247.00000,90.00000' b='247.00000,100.00000'/>
-		<WIRE a='247.00000,100.00000' b='256.00000,100.00000'/>
-		<WIRE a='256.00000,108.00000' b='247.00000,108.00000'/>
-		<WIRE a='247.00000,108.00000' b='247.00000,118.00000'/>
-		<WIRE a='230.00000,86.00000' b='204.00000,86.00000'/>
-		<WIRE a='204.00000,86.00000' b='204.00000,100.00000'/>
-		<WIRE a='204.00000,108.00000' b='204.00000,122.00000'/>
-		<WIRE a='204.00000,86.00000' b='196.00000,86.00000'/>
-		<WIRE a='204.00000,122.00000' b='230.00000,122.00000'/>
-		<WIRE a='196.00000,122.00000' b='204.00000,122.00000'/>
-		<TEXT pos='234.00000,128.00000' direction='3' font='0' color='000000'>XNOR</TEXT>
-		<JUNCTION pos='204.00000,122.00000'/>
-		<JUNCTION pos='204.00000,86.00000'/>
-		<JUNCTION pos='230.00000,104.00000'/>
-		<SYMBOL id='1' pos='292.00000,110.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
-			<FIELD type='1' description='Ref' value='Q?' show='0' pos='1.00000,-7.60000'/>
-			<FIELD type='0' description='Name' value='NAND' show='1' pos='1.00000,-10.00000'/>
-			<FIELD type='1' description='Package' value='' show='0' pos='1.00000,-5.20000'/>
-			<FIELD type='1' description='VOH' value='..' show='0' pos='1.00000,-2.80000'/>
-			<FIELD type='1' description='VOL' value='..' show='0' pos='1.00000,-0.40000'/>
-			<FIELD type='1' description='IOH' value='..' show='0' pos='1.00000,2.00000'/>
-			<FIELD type='1' description='IOL' value='..' show='0' pos='1.00000,4.40000'/>
-			<FIELD type='1' description='Manufacturer' value='..' show='0' pos='1.00000,6.80000'/>
-			<FIELD type='1' description='Manufacturer Part' value='..' show='0' pos='1.00000,9.20000'/>
-			<FIELD type='1' description='Digi-Key Part' value='..' show='0' pos='1.00000,11.60000'/>
-			<FIELD type='1' description='Newark Part' value='..' show='0' pos='1.00000,14.00000'/>
-			<FIELD type='1' description='Mouser Part' value='..' show='0' pos='1.00000,16.40000'/>
-			<FIELD type='1' description='Cost' value='..' show='0' pos='1.00000,18.80000'/>
-		</SYMBOL>
-		<WIRE a='274.00000,104.00000' b='274.00000,108.00000'/>
-		<WIRE a='273.00000,104.00000' b='274.00000,104.00000'/>
-		<JUNCTION pos='274.00000,104.00000'/>
-		<WIRE a='274.00000,100.00000' b='274.00000,104.00000'/>
+		<WIRE a='184.00000,150.00000' b='184.00000,154.00000'/>
+		<WIRE a='183.00000,150.00000' b='184.00000,150.00000'/>
+		<WIRE a='184.00000,146.00000' b='184.00000,150.00000'/>
+		<JUNCTION pos='114.00000,112.00000'/>
+		<JUNCTION pos='114.00000,168.00000'/>
+		<JUNCTION pos='114.00000,76.00000'/>
+		<JUNCTION pos='114.00000,132.00000'/>
+		<JUNCTION pos='140.00000,94.00000'/>
+		<JUNCTION pos='140.00000,150.00000'/>
+		<JUNCTION pos='184.00000,150.00000'/>
 	</TinyCAD>
 	<TinyCAD>
 		<NAME>Sheet 2</NAME>
@@ -1382,6 +1147,16 @@ download the executable.-->
 			<DATE></DATE>
 			<GRID spacing='100.00000' snap='1'/>
 		</DETAILS>
+		<FONT id='0'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
 		<FONT id='1'>
 			<HEIGHT>-10</HEIGHT>
 			<WIDTH>0</WIDTH>
@@ -1861,8 +1636,8 @@ download the executable.-->
 		<WIRE a='1262.00000,584.00000' b='1304.00000,584.00000'/>
 		<TEXT pos='1072.00000,586.00000' direction='3' font='3' color='000000'>C1</TEXT>
 		<WIRE a='1262.00000,596.00000' b='1214.00000,596.00000'/>
-		<WIRE a='1284.00000,548.00000' b='1284.00000,502.00000'/>
-		<WIRE a='1284.00000,502.00000' b='1294.00000,502.00000'/>
+		<WIRE a='1284.00000,548.00000' b='1284.00000,470.00000'/>
+		<WIRE a='1284.00000,470.00000' b='1294.00000,470.00000'/>
 		<WIRE a='1294.00000,554.00000' b='1294.00000,510.00000'/>
 		<WIRE a='1304.00000,584.00000' b='1304.00000,595.00000'/>
 		<WIRE a='1304.00000,595.00000' b='1314.00000,595.00000'/>
@@ -2001,8 +1776,8 @@ download the executable.-->
 		<WIRE a='1150.00000,554.00000' b='1118.00000,554.00000'/>
 		<WIRE a='1118.00000,584.00000' b='1160.00000,584.00000'/>
 		<WIRE a='1118.00000,596.00000' b='1070.00000,596.00000'/>
-		<WIRE a='1140.00000,548.00000' b='1140.00000,502.00000'/>
-		<WIRE a='1140.00000,502.00000' b='1150.00000,502.00000'/>
+		<WIRE a='1140.00000,548.00000' b='1140.00000,470.00000'/>
+		<WIRE a='1140.00000,470.00000' b='1150.00000,470.00000'/>
 		<WIRE a='1150.00000,554.00000' b='1150.00000,510.00000'/>
 		<WIRE a='1160.00000,584.00000' b='1160.00000,595.00000'/>
 		<SYMBOL id='1' pos='904.00000,600.00000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
@@ -2140,8 +1915,8 @@ download the executable.-->
 		<WIRE a='1008.00000,554.00000' b='976.00000,554.00000'/>
 		<WIRE a='976.00000,584.00000' b='1018.00000,584.00000'/>
 		<WIRE a='976.00000,596.00000' b='928.00000,596.00000'/>
-		<WIRE a='998.00000,548.00000' b='998.00000,502.00000'/>
-		<WIRE a='998.00000,502.00000' b='1008.00000,502.00000'/>
+		<WIRE a='998.00000,548.00000' b='998.00000,470.00000'/>
+		<WIRE a='998.00000,470.00000' b='1008.00000,470.00000'/>
 		<WIRE a='1008.00000,554.00000' b='1008.00000,510.00000'/>
 		<WIRE a='1018.00000,584.00000' b='1018.00000,595.00000'/>
 		<SYMBOL id='1' pos='752.00000,600.00000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
@@ -2279,8 +2054,8 @@ download the executable.-->
 		<WIRE a='856.00000,554.00000' b='824.00000,554.00000'/>
 		<WIRE a='824.00000,584.00000' b='866.00000,584.00000'/>
 		<WIRE a='824.00000,596.00000' b='776.00000,596.00000'/>
-		<WIRE a='846.00000,548.00000' b='846.00000,502.00000'/>
-		<WIRE a='846.00000,502.00000' b='856.00000,502.00000'/>
+		<WIRE a='846.00000,548.00000' b='846.00000,470.00000'/>
+		<WIRE a='846.00000,470.00000' b='856.00000,470.00000'/>
 		<WIRE a='856.00000,554.00000' b='856.00000,510.00000'/>
 		<WIRE a='866.00000,584.00000' b='866.00000,595.00000'/>
 		<SYMBOL id='1' pos='608.00000,600.00000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
@@ -2418,8 +2193,8 @@ download the executable.-->
 		<WIRE a='712.00000,554.00000' b='680.00000,554.00000'/>
 		<WIRE a='680.00000,584.00000' b='722.00000,584.00000'/>
 		<WIRE a='680.00000,596.00000' b='632.00000,596.00000'/>
-		<WIRE a='702.00000,548.00000' b='702.00000,502.00000'/>
-		<WIRE a='702.00000,502.00000' b='712.00000,502.00000'/>
+		<WIRE a='702.00000,548.00000' b='702.00000,470.00000'/>
+		<WIRE a='702.00000,470.00000' b='712.00000,470.00000'/>
 		<WIRE a='712.00000,554.00000' b='712.00000,510.00000'/>
 		<WIRE a='722.00000,584.00000' b='722.00000,595.00000'/>
 		<SYMBOL id='1' pos='466.00000,600.00000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
@@ -2557,8 +2332,8 @@ download the executable.-->
 		<WIRE a='570.00000,554.00000' b='538.00000,554.00000'/>
 		<WIRE a='538.00000,584.00000' b='580.00000,584.00000'/>
 		<WIRE a='538.00000,596.00000' b='490.00000,596.00000'/>
-		<WIRE a='560.00000,548.00000' b='560.00000,502.00000'/>
-		<WIRE a='560.00000,502.00000' b='570.00000,502.00000'/>
+		<WIRE a='560.00000,548.00000' b='560.00000,470.00000'/>
+		<WIRE a='560.00000,470.00000' b='570.00000,470.00000'/>
 		<WIRE a='570.00000,554.00000' b='570.00000,510.00000'/>
 		<WIRE a='580.00000,584.00000' b='580.00000,595.00000'/>
 		<JUNCTION pos='560.00000,548.00000'/>
@@ -2726,8 +2501,8 @@ download the executable.-->
 		<WIRE a='414.00000,554.00000' b='382.00000,554.00000'/>
 		<WIRE a='382.00000,584.00000' b='424.00000,584.00000'/>
 		<WIRE a='382.00000,596.00000' b='334.00000,596.00000'/>
-		<WIRE a='404.00000,548.00000' b='404.00000,502.00000'/>
-		<WIRE a='404.00000,502.00000' b='414.00000,502.00000'/>
+		<WIRE a='404.00000,548.00000' b='404.00000,470.00000'/>
+		<WIRE a='404.00000,470.00000' b='414.00000,470.00000'/>
 		<WIRE a='414.00000,554.00000' b='414.00000,510.00000'/>
 		<WIRE a='424.00000,584.00000' b='424.00000,595.00000'/>
 		<SYMBOL id='1' pos='168.00000,600.00000' part='0' rotate='4' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
@@ -2865,8 +2640,8 @@ download the executable.-->
 		<WIRE a='272.00000,554.00000' b='240.00000,554.00000'/>
 		<WIRE a='240.00000,584.00000' b='282.00000,584.00000'/>
 		<WIRE a='240.00000,596.00000' b='192.00000,596.00000'/>
-		<WIRE a='262.00000,548.00000' b='262.00000,502.00000'/>
-		<WIRE a='262.00000,502.00000' b='272.00000,502.00000'/>
+		<WIRE a='262.00000,548.00000' b='262.00000,470.00000'/>
+		<WIRE a='262.00000,470.00000' b='272.00000,470.00000'/>
 		<WIRE a='272.00000,554.00000' b='272.00000,510.00000'/>
 		<WIRE a='282.00000,584.00000' b='282.00000,595.00000'/>
 		<WIRE a='153.00000,595.00000' b='140.00000,595.00000'/>
@@ -2887,5 +2662,21 @@ download the executable.-->
 		<WIRE a='866.00000,595.00000' b='889.00000,595.00000'/>
 		<WIRE a='1018.00000,595.00000' b='1031.00000,595.00000'/>
 		<WIRE a='1160.00000,595.00000' b='1175.00000,595.00000'/>
+		<TEXT pos='1296.00000,472.00000' direction='3' font='0' color='000000'>A1</TEXT>
+		<TEXT pos='1152.00000,472.00000' direction='3' font='0' color='000000'>A2</TEXT>
+		<TEXT pos='1010.00000,472.00000' direction='3' font='0' color='000000'>A3</TEXT>
+		<TEXT pos='858.00000,472.00000' direction='3' font='0' color='000000'>A4</TEXT>
+		<TEXT pos='714.00000,472.00000' direction='3' font='0' color='000000'>A5</TEXT>
+		<TEXT pos='574.00000,472.00000' direction='3' font='0' color='000000'>A6</TEXT>
+		<TEXT pos='416.00000,472.00000' direction='3' font='0' color='000000'>A7</TEXT>
+		<TEXT pos='276.00000,472.00000' direction='3' font='0' color='000000'>A8</TEXT>
+		<TEXT pos='1292.00000,510.00000' direction='3' font='0' color='000000'>B1</TEXT>
+		<TEXT pos='1148.00000,510.00000' direction='3' font='0' color='000000'>B2</TEXT>
+		<TEXT pos='1006.00000,510.00000' direction='3' font='0' color='000000'>B3</TEXT>
+		<TEXT pos='854.00000,510.00000' direction='3' font='0' color='000000'>B4</TEXT>
+		<TEXT pos='710.00000,508.00000' direction='3' font='0' color='000000'>B5</TEXT>
+		<TEXT pos='568.00000,508.00000' direction='3' font='0' color='000000'>B6</TEXT>
+		<TEXT pos='412.00000,510.00000' direction='3' font='0' color='000000'>B7</TEXT>
+		<TEXT pos='270.00000,510.00000' direction='3' font='0' color='000000'>B8</TEXT>
 	</TinyCAD>
 </TinyCADSheets>
