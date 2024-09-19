@@ -1143,9 +1143,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(710,1660)" to="(720,1660)"/>
     <comp lib="1" loc="(1420,5120)" name="AND Gate"/>
     <comp lib="1" loc="(1420,300)" name="AND Gate"/>
+    <comp lib="0" loc="(1220,4660)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(370,900)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1170,730)" name="Constant">
+      <a name="facing" val="south"/>
     </comp>
     <comp lib="1" loc="(1800,2770)" name="OR Gate"/>
     <comp lib="1" loc="(570,4400)" name="XNOR Gate"/>
@@ -1156,17 +1162,42 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1420,2970)" name="AND Gate"/>
     <comp lib="1" loc="(2460,1440)" name="OR Gate"/>
     <comp lib="1" loc="(570,440)" name="XNOR Gate"/>
+    <comp lib="0" loc="(1220,5230)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(710,1120)" name="AND Gate"/>
     <comp lib="1" loc="(1800,4490)" name="OR Gate"/>
     <comp lib="1" loc="(1420,3270)" name="AND Gate"/>
+    <comp lib="0" loc="(1250,1810)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1960,2710)" name="OR Gate"/>
     <comp lib="1" loc="(570,1130)" name="XNOR Gate"/>
     <comp lib="0" loc="(430,4250)" name="Constant">
       <a name="facing" val="south"/>
     </comp>
+    <comp lib="0" loc="(1280,4660)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1130,2930)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1220,1810)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(1800,5070)" name="OR Gate"/>
     <comp lib="1" loc="(1420,420)" name="AND Gate"/>
     <comp lib="0" loc="(430,1980)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1190,4080)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1160,4660)" name="Constant">
       <a name="facing" val="south"/>
     </comp>
     <comp lib="1" loc="(1640,3980)" name="OR Gate"/>
@@ -1176,10 +1207,31 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(1640,4550)" name="OR Gate"/>
     <comp lib="1" loc="(570,4900)" name="XNOR Gate"/>
+    <comp lib="0" loc="(1250,2930)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(570,2760)" name="XNOR Gate"/>
     <comp lib="1" loc="(1430,950)" name="AND Gate"/>
     <comp lib="1" loc="(2300,2040)" name="OR Gate"/>
+    <comp lib="0" loc="(1160,5230)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1280,1810)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1160,2930)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1160,1270)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(570,680)" name="XNOR Gate"/>
+    <comp lib="0" loc="(1130,4080)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(1420,1850)" name="AND Gate"/>
     <comp lib="0" loc="(370,3100)" name="Constant">
       <a name="facing" val="south"/>
@@ -1197,6 +1249,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(2300,1500)" name="OR Gate"/>
     <comp lib="1" loc="(1640,2280)" name="OR Gate"/>
     <comp lib="1" loc="(2140,4370)" name="OR Gate"/>
+    <comp lib="0" loc="(1280,3510)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,1910)" name="AND Gate"/>
     <comp lib="0" loc="(370,380)" name="Constant">
       <a name="facing" val="south"/>
@@ -1205,27 +1260,50 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(370,3680)" name="Constant">
       <a name="facing" val="south"/>
     </comp>
+    <comp lib="0" loc="(1220,3510)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,5450)" name="AND Gate"/>
+    <comp lib="0" loc="(1190,4660)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(2300,3160)" name="OR Gate"/>
     <comp lib="0" loc="(400,380)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
+    <comp lib="0" loc="(1160,200)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,3730)" name="AND Gate"/>
     <comp lib="1" loc="(2750,4710)" name="OR Gate"/>
     <comp lib="1" loc="(1420,4700)" name="AND Gate"/>
     <comp lib="1" loc="(1420,4760)" name="AND Gate"/>
+    <comp lib="0" loc="(1190,5230)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(2140,3220)" name="OR Gate"/>
     <comp lib="1" loc="(1960,4430)" name="OR Gate"/>
+    <comp lib="0" loc="(1130,2360)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(1420,1310)" name="AND Gate"/>
     <comp lib="0" loc="(250,210)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="0" loc="(1220,2360)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="0" loc="(400,3680)" name="Constant">
       <a name="facing" val="south"/>
     </comp>
     <comp lib="1" loc="(1420,2760)" name="AND Gate"/>
+    <comp lib="0" loc="(1310,200)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(430,380)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
@@ -1239,14 +1317,24 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(570,2600)" name="XNOR Gate"/>
     <comp lib="1" loc="(1420,2640)" name="AND Gate"/>
+    <comp lib="0" loc="(1250,4080)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(780,4550)" name="AND Gate"/>
     <comp lib="1" loc="(1640,670)" name="OR Gate"/>
+    <comp lib="0" loc="(1250,2360)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,3390)" name="AND Gate"/>
     <comp lib="1" loc="(570,4560)" name="XNOR Gate"/>
     <comp lib="1" loc="(1420,4360)" name="AND Gate"/>
     <comp lib="1" loc="(570,3250)" name="XNOR Gate"/>
     <comp lib="1" loc="(2600,2470)" name="OR Gate"/>
     <comp lib="1" loc="(570,1510)" name="XNOR Gate"/>
+    <comp lib="0" loc="(1280,5230)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(570,1590)" name="XNOR Gate"/>
     <comp lib="0" loc="(400,4830)" name="Constant">
       <a name="facing" val="south"/>
@@ -1257,6 +1345,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(2750,2410)" name="OR Gate"/>
     <comp lib="1" loc="(640,2120)" name="AND Gate"/>
     <comp lib="1" loc="(1420,5510)" name="AND Gate"/>
+    <comp lib="0" loc="(1250,4660)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(2460,3680)" name="OR Gate"/>
     <comp lib="1" loc="(2140,490)" name="OR Gate"/>
     <comp lib="0" loc="(340,4250)" name="Constant">
@@ -1273,10 +1364,30 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(710,5620)" name="AND Gate"/>
     <comp lib="1" loc="(1420,4420)" name="AND Gate"/>
     <comp lib="1" loc="(1640,1200)" name="OR Gate"/>
+    <comp lib="0" loc="(1280,2360)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,3150)" name="AND Gate"/>
+    <comp lib="0" loc="(1190,2930)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,600)" name="AND Gate"/>
+    <comp lib="0" loc="(1220,4080)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(1420,1610)" name="AND Gate"/>
+    <comp lib="0" loc="(1340,1270)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(570,2680)" name="XNOR Gate"/>
+    <comp lib="0" loc="(1230,730)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1190,3510)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(340,4830)" name="Constant">
       <a name="facing" val="south"/>
     </comp>
@@ -1286,6 +1397,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(780,3980)" name="AND Gate"/>
     <comp lib="1" loc="(1420,4180)" name="AND Gate"/>
     <comp lib="1" loc="(2300,3740)" name="OR Gate"/>
+    <comp lib="0" loc="(1190,1270)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1340,4080)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1960,1080)" name="OR Gate"/>
     <comp lib="0" loc="(340,1980)" name="Constant">
       <a name="facing" val="south"/>
@@ -1303,12 +1420,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
+    <comp lib="0" loc="(1280,200)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,2030)" name="AND Gate"/>
+    <comp lib="0" loc="(1130,1810)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(2140,4950)" name="OR Gate"/>
     <comp lib="1" loc="(2600,840)" name="OR Gate"/>
     <comp lib="1" loc="(2750,250)" name="OR Gate"/>
     <comp lib="1" loc="(1430,770)" name="AND Gate"/>
     <comp lib="0" loc="(370,4830)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1190,2360)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
@@ -1320,24 +1448,50 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="0" loc="(1250,1270)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,360)" name="AND Gate"/>
+    <comp lib="0" loc="(1340,5230)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(570,3830)" name="XNOR Gate"/>
     <comp lib="1" loc="(1420,2820)" name="AND Gate"/>
+    <comp lib="0" loc="(1160,4080)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(430,4830)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1250,200)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="1" loc="(640,3240)" name="AND Gate"/>
     <comp lib="1" loc="(570,600)" name="XNOR Gate"/>
+    <comp lib="0" loc="(1310,4660)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(2600,4190)" name="OR Gate"/>
-    <comp lib="1" loc="(2460,370)" name="OR Gate"/>
-    <comp lib="1" loc="(570,5550)" name="XNOR Gate"/>
-    <comp lib="1" loc="(1430,1130)" name="AND Gate"/>
-    <comp lib="0" loc="(920,210)" name="Constant">
+    <comp lib="0" loc="(1130,3510)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
+    <comp lib="1" loc="(2460,370)" name="OR Gate"/>
+    <comp lib="1" loc="(570,5550)" name="XNOR Gate"/>
+    <comp lib="1" loc="(1430,1130)" name="AND Gate"/>
     <comp lib="1" loc="(2300,960)" name="OR Gate"/>
+    <comp lib="0" loc="(1320,730)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1350,730)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1250,5230)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1430,890)" name="AND Gate"/>
     <comp lib="0" loc="(370,1440)" name="Constant">
       <a name="facing" val="south"/>
@@ -1346,6 +1500,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(2460,1980)" name="OR Gate"/>
     <comp lib="1" loc="(2460,3100)" name="OR Gate"/>
     <comp lib="1" loc="(2750,4130)" name="OR Gate"/>
+    <comp lib="0" loc="(1160,3510)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,3550)" name="AND Gate"/>
     <comp lib="1" loc="(780,2280)" name="AND Gate"/>
     <comp lib="1" loc="(1430,830)" name="AND Gate"/>
@@ -1356,17 +1513,40 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="5" loc="(220,70)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1260,730)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1310,1810)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1190,1810)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1280,4080)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1310,5230)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(640,1580)" name="AND Gate"/>
     <comp lib="1" loc="(2600,1380)" name="OR Gate"/>
     <comp lib="1" loc="(1420,3790)" name="AND Gate"/>
     <comp lib="1" loc="(2600,1920)" name="OR Gate"/>
     <comp lib="1" loc="(1430,1070)" name="AND Gate"/>
     <comp lib="1" loc="(640,4970)" name="AND Gate"/>
+    <comp lib="0" loc="(1220,200)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,660)" name="AND Gate"/>
     <comp lib="1" loc="(1430,1190)" name="AND Gate"/>
     <comp lib="1" loc="(640,4390)" name="AND Gate"/>
     <comp lib="1" loc="(1420,2520)" name="AND Gate"/>
     <comp lib="0" loc="(430,900)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1250,3510)" name="Constant">
       <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(340,1440)" name="Constant">
@@ -1375,11 +1555,19 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(1420,2210)" name="AND Gate"/>
     <comp lib="1" loc="(1420,4300)" name="AND Gate"/>
+    <comp lib="0" loc="(1130,200)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(710,2750)" name="AND Gate"/>
     <comp lib="1" loc="(1800,1140)" name="OR Gate"/>
     <comp lib="1" loc="(570,970)" name="XNOR Gate"/>
     <comp lib="1" loc="(1420,4880)" name="AND Gate"/>
     <comp lib="0" loc="(400,900)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1130,4660)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
@@ -1396,11 +1584,25 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1420,5690)" name="AND Gate"/>
     <comp lib="1" loc="(1960,5010)" name="OR Gate"/>
     <comp lib="1" loc="(570,3410)" name="XNOR Gate"/>
+    <comp lib="0" loc="(1310,3510)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,3910)" name="AND Gate"/>
     <comp lib="1" loc="(1420,5390)" name="AND Gate"/>
+    <comp lib="0" loc="(1130,1270)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(1420,3090)" name="AND Gate"/>
     <comp lib="1" loc="(1420,2700)" name="AND Gate"/>
+    <comp lib="0" loc="(1310,1270)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(370,1980)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1340,2930)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
@@ -1408,9 +1610,21 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
     </comp>
     <comp lib="1" loc="(1420,4240)" name="AND Gate"/>
+    <comp lib="0" loc="(1130,5230)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(1420,1370)" name="AND Gate"/>
     <comp lib="1" loc="(1960,3860)" name="OR Gate"/>
     <comp lib="1" loc="(780,1740)" name="AND Gate"/>
+    <comp lib="0" loc="(1140,730)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1200,730)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(570,1750)" name="XNOR Gate"/>
     <comp lib="1" loc="(2750,1860)" name="OR Gate"/>
     <comp lib="0" loc="(430,2530)" name="Constant">
@@ -1419,13 +1633,30 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(780,3400)" name="AND Gate"/>
     <comp lib="1" loc="(1420,4940)" name="AND Gate"/>
+    <comp lib="0" loc="(1310,4080)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,4540)" name="AND Gate"/>
+    <comp lib="0" loc="(1280,2930)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,480)" name="AND Gate"/>
     <comp lib="1" loc="(2460,2530)" name="OR Gate"/>
     <comp lib="1" loc="(1420,1730)" name="AND Gate"/>
     <comp lib="1" loc="(1420,3210)" name="AND Gate"/>
+    <comp lib="0" loc="(1190,200)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,2270)" name="AND Gate"/>
+    <comp lib="0" loc="(1340,3510)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(2140,2650)" name="OR Gate"/>
+    <comp lib="0" loc="(1280,1270)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(1420,4480)" name="AND Gate"/>
     <comp lib="0" loc="(340,2530)" name="Constant">
       <a name="facing" val="south"/>
@@ -1434,15 +1665,25 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1420,4820)" name="AND Gate"/>
     <comp lib="1" loc="(710,1660)" name="AND Gate"/>
     <comp lib="1" loc="(570,2840)" name="XNOR Gate"/>
+    <comp lib="0" loc="(1220,1270)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(570,4480)" name="XNOR Gate"/>
     <comp lib="1" loc="(1420,3330)" name="AND Gate"/>
     <comp lib="1" loc="(1420,5270)" name="AND Gate"/>
     <comp lib="1" loc="(1800,3920)" name="OR Gate"/>
+    <comp lib="0" loc="(1340,4660)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(570,3330)" name="XNOR Gate"/>
     <comp lib="1" loc="(1420,2090)" name="AND Gate"/>
     <comp lib="1" loc="(570,5710)" name="XNOR Gate"/>
     <comp lib="1" loc="(1960,2160)" name="OR Gate"/>
     <comp lib="1" loc="(2750,1320)" name="OR Gate"/>
+    <comp lib="0" loc="(1220,2930)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(1420,2580)" name="AND Gate"/>
     <comp lib="0" loc="(340,380)" name="Constant">
       <a name="facing" val="south"/>
@@ -1462,6 +1703,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1420,5000)" name="AND Gate"/>
     <comp lib="1" loc="(570,4980)" name="XNOR Gate"/>
     <comp lib="1" loc="(570,1050)" name="XNOR Gate"/>
+    <comp lib="0" loc="(1310,2930)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(370,5400)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
@@ -1481,7 +1725,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(2140,1020)" name="OR Gate"/>
     <comp lib="1" loc="(570,1670)" name="XNOR Gate"/>
     <comp lib="1" loc="(2600,3040)" name="OR Gate"/>
+    <comp lib="0" loc="(1290,730)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(710,590)" name="AND Gate"/>
+    <comp lib="0" loc="(1160,1810)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(1420,3610)" name="AND Gate"/>
     <comp lib="1" loc="(1420,1550)" name="AND Gate"/>
     <comp lib="1" loc="(640,510)" name="AND Gate"/>
@@ -1490,6 +1741,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="1" loc="(640,5540)" name="AND Gate"/>
+    <comp lib="0" loc="(1160,2360)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(710,3900)" name="AND Gate"/>
     <comp lib="1" loc="(1420,1430)" name="AND Gate"/>
     <comp lib="0" loc="(190,210)" name="Pin">
@@ -1505,6 +1759,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(780,2830)" name="AND Gate"/>
     <comp lib="1" loc="(2460,4830)" name="OR Gate"/>
+    <comp lib="0" loc="(1340,2360)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(340,3100)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
@@ -1525,9 +1782,19 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(640,3820)" name="AND Gate"/>
     <comp lib="1" loc="(570,1210)" name="XNOR Gate"/>
     <comp lib="1" loc="(2300,430)" name="OR Gate"/>
+    <comp lib="0" loc="(1340,200)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(2300,4890)" name="OR Gate"/>
+    <comp lib="0" loc="(1310,2360)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(570,4320)" name="XNOR Gate"/>
     <comp lib="1" loc="(1420,3670)" name="AND Gate"/>
     <comp lib="1" loc="(2300,2590)" name="OR Gate"/>
+    <comp lib="0" loc="(1340,1810)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
   </circuit>
 </project>
