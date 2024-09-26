@@ -1760,9 +1760,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="1" loc="(4310,4880)" name="AND Gate"/>
-    <comp lib="0" loc="(910,2580)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
+    <comp lib="0" loc="(910,2580)" name="Constant"/>
     <comp lib="1" loc="(4730,4880)" name="AND Gate"/>
     <comp lib="1" loc="(4310,2780)" name="AND Gate"/>
     <comp lib="1" loc="(1010,360)" name="XNOR Gate"/>
@@ -1829,9 +1827,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(2400,1580)" name="NAND Gate"/>
     <comp lib="1" loc="(3660,4260)" name="NAND Gate"/>
     <comp lib="1" loc="(2330,2850)" name="NOT Gate"/>
-    <comp lib="0" loc="(910,3340)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
+    <comp lib="0" loc="(910,3340)" name="Constant"/>
     <comp lib="1" loc="(1150,2620)" name="AND Gate"/>
     <comp lib="1" loc="(1270,3970)" name="AND Gate"/>
     <comp lib="1" loc="(4500,1460)" name="NAND Gate"/>
@@ -1854,6 +1850,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(910,1240)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
+    <comp lib="6" loc="(750,31)" name="Text">
+      <a name="text" val="Address"/>
+    </comp>
     <comp lib="1" loc="(2930,2170)" name="NAND Gate"/>
     <comp lib="1" loc="(4080,3680)" name="NAND Gate"/>
     <comp lib="1" loc="(1010,3910)" name="XNOR Gate"/>
@@ -1864,6 +1863,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(3240,2980)" name="NAND Gate"/>
     <comp lib="1" loc="(2630,1380)" name="AND Gate"/>
     <comp lib="1" loc="(1010,480)" name="XNOR Gate"/>
+    <comp lib="6" loc="(1492,26)" name="Text">
+      <a name="text" val="Output"/>
+    </comp>
     <comp lib="1" loc="(3170,2150)" name="NOT Gate"/>
     <comp lib="1" loc="(3770,4370)" name="NAND Gate"/>
     <comp lib="1" loc="(1080,4660)" name="AND Gate"/>
@@ -1907,6 +1909,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1010,3330)" name="XNOR Gate"/>
     <comp lib="1" loc="(3890,2780)" name="AND Gate"/>
     <comp lib="1" loc="(1700,2470)" name="OR Gate"/>
+    <comp lib="6" loc="(810,31)" name="Text">
+      <a name="text" val="Write"/>
+    </comp>
     <comp lib="1" loc="(2630,4880)" name="AND Gate"/>
     <comp lib="1" loc="(2630,2080)" name="AND Gate"/>
     <comp lib="1" loc="(4080,2160)" name="NAND Gate"/>
@@ -1928,9 +1933,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(2400,4960)" name="NAND Gate"/>
     <comp lib="1" loc="(2820,2860)" name="NAND Gate"/>
     <comp lib="1" loc="(4610,3670)" name="NAND Gate"/>
-    <comp lib="0" loc="(910,4040)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
+    <comp lib="0" loc="(910,4040)" name="Constant"/>
     <comp lib="1" loc="(1700,3750)" name="OR Gate"/>
     <comp lib="1" loc="(1700,2990)" name="OR Gate"/>
     <comp lib="1" loc="(1700,1070)" name="OR Gate"/>
@@ -1962,7 +1965,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(910,3980)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="0" loc="(910,3220)" name="Constant"/>
+    <comp lib="0" loc="(910,3220)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(2330,3550)" name="NOT Gate"/>
     <comp lib="1" loc="(1700,1830)" name="OR Gate"/>
     <comp lib="1" loc="(4010,1450)" name="NOT Gate"/>
@@ -1981,9 +1986,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="1" loc="(4190,4270)" name="NAND Gate"/>
-    <comp lib="0" loc="(910,4740)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
+    <comp lib="0" loc="(910,4740)" name="Constant"/>
     <comp lib="1" loc="(2820,1580)" name="NAND Gate"/>
     <comp lib="1" loc="(1270,3270)" name="AND Gate"/>
     <comp lib="1" loc="(2510,4370)" name="NAND Gate"/>
@@ -2028,9 +2031,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1150,3320)" name="AND Gate"/>
     <comp lib="1" loc="(3660,2980)" name="NAND Gate"/>
     <comp lib="1" loc="(2510,3670)" name="NAND Gate"/>
-    <comp lib="0" loc="(910,4680)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
+    <comp lib="0" loc="(910,4680)" name="Constant"/>
     <comp lib="1" loc="(3350,2970)" name="NAND Gate"/>
     <comp lib="1" loc="(2750,2850)" name="NOT Gate"/>
     <comp lib="1" loc="(3660,2160)" name="NAND Gate"/>
@@ -2046,9 +2047,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(2510,2970)" name="NAND Gate"/>
     <comp lib="1" loc="(3660,1460)" name="NAND Gate"/>
     <comp lib="1" loc="(2750,1450)" name="NOT Gate"/>
-    <comp lib="0" loc="(910,1880)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
+    <comp lib="0" loc="(910,1880)" name="Constant"/>
     <comp lib="1" loc="(1700,1710)" name="OR Gate"/>
     <comp lib="0" loc="(840,60)" name="Pin">
       <a name="facing" val="south"/>
@@ -2063,7 +2062,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(3660,1580)" name="NAND Gate"/>
     <comp lib="1" loc="(4500,2980)" name="NAND Gate"/>
     <comp lib="1" loc="(4500,2160)" name="NAND Gate"/>
-    <comp lib="0" loc="(910,4620)" name="Constant"/>
+    <comp lib="0" loc="(910,4620)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(3590,2850)" name="NOT Gate"/>
     <comp lib="1" loc="(4010,4250)" name="NOT Gate"/>
     <comp lib="1" loc="(3770,2270)" name="NAND Gate"/>
@@ -2076,6 +2077,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(3350,5070)" name="NAND Gate"/>
     <comp lib="1" loc="(4190,3670)" name="NAND Gate"/>
     <comp lib="1" loc="(2630,4180)" name="AND Gate"/>
+    <comp lib="6" loc="(1307,25)" name="Text">
+      <a name="text" val="Input"/>
+    </comp>
     <comp lib="0" loc="(910,430)" name="Constant">
       <a name="value" val="0x0"/>
     </comp>
@@ -2119,6 +2123,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(3890,4180)" name="AND Gate"/>
     <comp lib="1" loc="(2820,4380)" name="NAND Gate"/>
     <comp lib="1" loc="(4500,3560)" name="NAND Gate"/>
+    <comp lib="6" loc="(841,30)" name="Text">
+      <a name="text" val="Read"/>
+    </comp>
     <comp lib="1" loc="(1080,1160)" name="AND Gate"/>
     <comp lib="1" loc="(2930,4970)" name="NAND Gate"/>
     <comp lib="1" loc="(1700,3110)" name="OR Gate"/>
@@ -2152,7 +2159,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(3770,1570)" name="NAND Gate"/>
     <comp lib="1" loc="(1700,830)" name="OR Gate"/>
-    <comp lib="0" loc="(910,1820)" name="Constant"/>
+    <comp lib="0" loc="(910,1820)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="1" loc="(3770,1470)" name="NAND Gate"/>
     <comp lib="1" loc="(1010,3970)" name="XNOR Gate"/>
     <comp lib="1" loc="(4500,2280)" name="NAND Gate"/>
