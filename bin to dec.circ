@@ -77,27 +77,24 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="241" y="141">B</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="241" y="108">A</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="100" y="107">A/B</text>
-      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="100" y="141">A%B</text>
-      <rect fill="none" height="60" stroke="#000000" stroke-width="2" width="280" x="30" y="90"/>
-      <circ-port height="10" pin="420,110" width="10" x="105" y="85"/>
-      <circ-port height="10" pin="450,110" width="10" x="125" y="85"/>
-      <circ-port height="10" pin="480,110" width="10" x="145" y="85"/>
-      <circ-port height="8" pin="780,110" width="8" x="186" y="86"/>
-      <circ-port height="8" pin="810,110" width="8" x="206" y="86"/>
-      <circ-port height="8" pin="840,110" width="8" x="226" y="86"/>
-      <circ-port height="8" pin="870,110" width="8" x="246" y="86"/>
-      <circ-port height="8" pin="900,110" width="8" x="266" y="86"/>
-      <circ-port height="8" pin="930,110" width="8" x="286" y="86"/>
-      <circ-port height="10" pin="180,110" width="10" x="105" y="145"/>
-      <circ-port height="10" pin="210,110" width="10" x="125" y="145"/>
-      <circ-port height="10" pin="240,110" width="10" x="145" y="145"/>
-      <circ-port height="10" pin="90,110" width="10" x="115" y="145"/>
-      <circ-port height="10" pin="120,110" width="10" x="135" y="145"/>
-      <circ-port height="10" pin="150,110" width="10" x="155" y="145"/>
-      <circ-anchor facing="east" height="6" width="6" x="157" y="117"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="125" y="47">Binary</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="80" y="78">10x</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="146" y="79">1x</text>
+      <rect fill="none" height="60" stroke="#000000" stroke-width="2" width="160" x="40" y="30"/>
+      <circ-port height="10" pin="420,110" width="10" x="55" y="85"/>
+      <circ-port height="10" pin="450,110" width="10" x="75" y="85"/>
+      <circ-port height="10" pin="480,110" width="10" x="95" y="85"/>
+      <circ-port height="8" pin="780,110" width="8" x="66" y="26"/>
+      <circ-port height="8" pin="810,110" width="8" x="86" y="26"/>
+      <circ-port height="8" pin="840,110" width="8" x="106" y="26"/>
+      <circ-port height="8" pin="870,110" width="8" x="126" y="26"/>
+      <circ-port height="8" pin="900,110" width="8" x="146" y="26"/>
+      <circ-port height="8" pin="930,110" width="8" x="166" y="26"/>
+      <circ-port height="10" pin="180,110" width="10" x="135" y="85"/>
+      <circ-port height="10" pin="210,110" width="10" x="155" y="85"/>
+      <circ-port height="10" pin="240,110" width="10" x="175" y="85"/>
+      <circ-port height="10" pin="150,110" width="10" x="115" y="85"/>
+      <circ-anchor facing="east" height="6" width="6" x="117" y="57"/>
     </appear>
     <wire from="(1180,3890)" to="(1290,3890)"/>
     <wire from="(1900,6380)" to="(1900,6410)"/>
@@ -2598,1211 +2595,580 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(5470,3980)" to="(5750,3980)"/>
     <wire from="(1280,6710)" to="(5980,6710)"/>
     <wire from="(5830,470)" to="(7330,470)"/>
-    <comp lib="1" loc="(6320,4310)" name="XOR Gate">
+    <comp lib="1" loc="(6450,4310)" name="XOR Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(3060,3920)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3470,1240)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6280,4030)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(6320,6470)" name="XOR Gate">
+    <comp lib="5" loc="(5180,6420)" name="LED">
       <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(4090,3820)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4340,5700)" name="AND Gate"/>
-    <comp lib="5" loc="(6280,3680)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(6480,5970)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6350,3450)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1700,6400)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(5180,1350)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6730,560)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6280,4390)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3340,5800)" name="AND Gate"/>
-    <comp lib="1" loc="(6700,5770)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="5" loc="(6280,1130)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(4340,750)" name="AND Gate"/>
-    <comp lib="1" loc="(6570,3950)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(5410,3990)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4910,6310)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6720,1820)" name="AND Gate"/>
-    <comp lib="5" loc="(6280,1480)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(960,3910)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4500,1370)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3370,3820)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6540,3370)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3150,1410)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4340,570)" name="AND Gate"/>
-    <comp lib="1" loc="(6700,700)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(5530,1270)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6320,7150)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(4340,5940)" name="AND Gate"/>
-    <comp lib="1" loc="(6700,3250)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="5" loc="(3740,1350)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6330,700)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(4340,630)" name="AND Gate"/>
-    <comp lib="1" loc="(3970,1300)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6400,4030)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="5" loc="(4460,1350)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1130,6030)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6840,1450)" name="AND Gate"/>
-    <comp lib="1" loc="(2520,1440)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2420,1410)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,6360)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(2110,6120)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6620,5630)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6400,4390)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(1800,6510)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6660,5890)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="5" loc="(6850,5970)" name="LED">
-      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(210,110)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(6870,1040)" name="XOR Gate"/>
-    <comp lib="1" loc="(1920,6340)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,6300)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(960,4030)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,6480)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6780,5890)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3870,6480)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6650,1130)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(6330,5770)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1130,4080)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(5220,6440)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(180,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(5900,1370)" name="Constant">
-      <a name="facing" val="west"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(6950,3390)" name="XOR Gate"/>
-    <comp lib="1" loc="(3190,980)" name="XNOR Gate"/>
-    <comp lib="1" loc="(3340,730)" name="AND Gate"/>
-    <comp lib="1" loc="(3190,6050)" name="XNOR Gate"/>
-    <comp lib="5" loc="(6850,900)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(600,110)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(3520,890)" name="AND Gate"/>
-    <comp lib="1" loc="(6450,3950)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6960,6170)" name="AND Gate"/>
-    <comp lib="1" loc="(6360,5630)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6580,5770)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6490,7140)" name="XOR Gate"/>
-    <comp lib="1" loc="(6390,4860)" name="XOR Gate"/>
-    <comp lib="5" loc="(6530,1480)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(6320,6120)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1130,6420)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(960,3850)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2520,6370)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(450,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="5" loc="(1570,1350)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(5410,6370)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(150,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(6350,1250)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3190,6130)" name="XNOR Gate"/>
-    <comp lib="1" loc="(1700,6480)" name="AND Gate">
+    <comp lib="1" loc="(6730,3110)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
     <comp lib="6" loc="(650,72)" name="Text">
       <a name="text" val="Divisor"/>
     </comp>
-    <comp lib="1" loc="(3520,5960)" name="AND Gate"/>
-    <comp lib="1" loc="(1130,3510)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(810,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(2640,6340)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6320,3950)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1700,3880)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,6090)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6280,6550)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="5" loc="(6660,820)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(4690,1440)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4910,3790)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6410,3370)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3190,660)" name="XNOR Gate"/>
-    <comp lib="1" loc="(3430,810)" name="AND Gate"/>
-    <comp lib="5" loc="(6770,6170)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1130,1080)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(5410,3850)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2330,3920)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3430,3360)" name="AND Gate"/>
-    <comp lib="1" loc="(4340,5880)" name="AND Gate"/>
-    <comp lib="5" loc="(6530,6200)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3190,1060)" name="XNOR Gate"/>
-    <comp lib="1" loc="(6490,4620)" name="XOR Gate"/>
-    <comp lib="5" loc="(6410,820)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3190,5890)" name="XNOR Gate"/>
-    <comp lib="1" loc="(2330,6440)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6320,4630)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(3970,3990)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6290,5890)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="5" loc="(6290,820)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="5" loc="(6650,1450)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2690,3010)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6460,5770)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="5" loc="(6400,3680)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(6690,3600)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1800,6370)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6870,3590)" name="XOR Gate"/>
-    <comp lib="1" loc="(1130,3840)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6390,2310)" name="XOR Gate"/>
-    <comp lib="1" loc="(6390,7380)" name="XOR Gate"/>
-    <comp lib="1" loc="(3520,3440)" name="AND Gate"/>
-    <comp lib="1" loc="(6570,6120)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(5310,3880)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(240,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(6840,6520)" name="AND Gate"/>
-    <comp lib="1" loc="(3870,3880)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4590,6400)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2330,1370)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6690,1050)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6450,3600)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(3190,740)" name="XNOR Gate"/>
-    <comp lib="1" loc="(2740,3790)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6530,3680)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="5" loc="(6540,820)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(5310,3960)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(7040,5970)" name="AND Gate"/>
-    <comp lib="1" loc="(1130,1530)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(5900,3920)" name="Constant">
-      <a name="facing" val="west"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(960,1540)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6400,6550)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(2520,6510)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6280,6910)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3970,3850)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1800,3850)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4340,690)" name="AND Gate"/>
-    <comp lib="5" loc="(5180,6420)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6620,560)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,4020)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(5410,1440)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(690,110)" name="Constant">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="5" loc="(2110,3600)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(2020,3790)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2740,6310)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(5410,6510)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,6540)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(5530,6340)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6580,700)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(3700,6120)" name="AND Gate"/>
-    <comp lib="1" loc="(6960,3650)" name="AND Gate"/>
-    <comp lib="1" loc="(4340,3180)" name="AND Gate"/>
-    <comp lib="1" loc="(3190,900)" name="XNOR Gate"/>
-    <comp lib="1" loc="(6610,5970)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4590,1410)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6530,1130)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(2520,3850)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4340,5760)" name="AND Gate"/>
-    <comp lib="1" loc="(6630,6830)" name="XOR Gate"/>
-    <comp lib="1" loc="(2420,6400)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6450,6470)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1130,3630)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6400,1840)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(6620,3110)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6410,5890)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3780,6440)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(2110,1050)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="5" loc="(6530,4030)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="5" loc="(6290,7440)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(5310,6480)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(5900,6440)" name="Constant">
-      <a name="facing" val="west"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(3190,5730)" name="XNOR Gate"/>
-    <comp lib="1" loc="(1130,3960)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6630,1760)" name="XOR Gate"/>
-    <comp lib="1" loc="(4190,3790)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6720,6890)" name="AND Gate"/>
-    <comp lib="1" loc="(3190,3370)" name="XNOR Gate"/>
-    <comp lib="1" loc="(3250,6510)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3190,5970)" name="XNOR Gate"/>
-    <comp lib="1" loc="(4810,3820)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2520,3990)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(2290,6420)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1130,6150)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(870,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="5" loc="(3020,6420)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6580,7200)" name="AND Gate"/>
-    <comp lib="1" loc="(1130,1410)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6780,3370)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(2420,6480)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,3690)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3340,3280)" name="AND Gate"/>
-    <comp lib="1" loc="(6460,3250)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1130,5970)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6400,1480)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(6750,3940)" name="XOR Gate"/>
-    <comp lib="1" loc="(1320,5830)" name="NOT Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3150,6400)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6570,1050)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6320,1760)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6480,6320)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6950,5910)" name="XOR Gate"/>
-    <comp lib="1" loc="(1800,1440)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(1570,3900)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6960,1100)" name="AND Gate"/>
-    <comp lib="1" loc="(1320,760)" name="NOT Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6810,5770)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(3190,3530)" name="XNOR Gate"/>
-    <comp lib="1" loc="(6570,6470)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6350,6680)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6350,1610)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4590,3960)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4090,6340)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6730,5630)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(960,4090)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(660,110)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(960,6610)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3190,5810)" name="XNOR Gate"/>
-    <comp lib="1" loc="(3190,3210)" name="XNOR Gate"/>
-    <comp lib="1" loc="(1130,1140)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4090,1270)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4340,3360)" name="AND Gate"/>
-    <comp lib="5" loc="(6650,3680)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3470,6310)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4340,810)" name="AND Gate"/>
-    <comp lib="1" loc="(5310,6400)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2740,1240)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6530,4370)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(6610,900)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6810,700)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6320,3600)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6320,6830)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(3610,3520)" name="AND Gate"/>
-    <comp lib="1" loc="(6480,1250)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6490,2070)" name="XOR Gate"/>
-    <comp lib="6" loc="(161,75)" name="Text">
-      <a name="text" val="Remainder"/>
-    </comp>
-    <comp lib="1" loc="(3150,1330)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
     <comp lib="1" loc="(6320,1400)" name="XOR Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="5" loc="(6280,6200)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(4910,1240)" name="XOR Gate">
+    <comp lib="1" loc="(4690,1300)" name="XOR Gate">
       <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6350,3800)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4810,6340)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,1470)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6350,900)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4690,3850)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4690,6370)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6450,1400)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="5" loc="(6280,1840)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(6320,1050)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(960,6550)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6450,4310)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(4590,6480)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4340,3300)" name="AND Gate"/>
-    <comp lib="0" loc="(120,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="0" loc="(840,110)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="5" loc="(6530,6890)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(6350,6320)" name="AND Gate">
+    <comp lib="1" loc="(1130,3510)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(3970,6510)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(480,110)" name="Pin">
+    <comp lib="0" loc="(690,110)" name="Constant">
       <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(960,1480)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6490,3110)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(960,6490)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3250,1440)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6290,2370)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(3150,3880)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(1860,700)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(960,6430)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4590,3880)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1700,3960)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3190,3610)" name="XNOR Gate"/>
-    <comp lib="1" loc="(4500,3920)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,5910)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6630,4310)" name="XOR Gate"/>
-    <comp lib="1" loc="(3190,3290)" name="XNOR Gate"/>
-    <comp lib="5" loc="(1570,6420)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(3250,3850)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6390,2130)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(5310,1410)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3470,3790)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6390,4680)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="5" loc="(6770,1100)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1700,1330)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4500,6440)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1610,1370)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6460,700)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(570,110)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(2420,1330)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6480,3450)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2020,6310)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,3450)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(5220,3920)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(7040,900)" name="AND Gate"/>
-    <comp lib="1" loc="(3060,1370)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1920,1270)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3970,6370)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6870,6110)" name="XOR Gate"/>
-    <comp lib="1" loc="(4690,3990)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4590,1330)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3870,1410)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6360,3110)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="6" loc="(401,75)" name="Text">
-      <a name="text" val="Quotient"/>
-    </comp>
-    <comp lib="1" loc="(3150,6480)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1700,1410)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6580,3250)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(960,1360)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3250,6370)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4190,6310)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3780,3920)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3870,6400)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6290,4920)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(780,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
     </comp>
     <comp lib="5" loc="(6400,6200)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(960,6370)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(5180,3900)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(2520,1300)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3150,3960)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(2290,3900)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1130,1350)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6450,1760)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(2640,3820)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2640,1270)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6570,3600)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(4690,6510)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3700,1050)" name="AND Gate"/>
-    <comp lib="6" loc="(845,73)" name="Text">
-      <a name="text" val="Dividend"/>
-    </comp>
-    <comp lib="5" loc="(2290,1350)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6730,3110)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6850,3450)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(6950,840)" name="XOR Gate"/>
-    <comp lib="1" loc="(3250,1300)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6570,1400)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1610,3920)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6450,6830)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6690,6120)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(900,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(3370,6340)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6480,900)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6490,5630)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(1800,710)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(2690,460)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6280,4710)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3190,820)" name="XNOR Gate"/>
-    <comp lib="1" loc="(2420,3880)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6390,7200)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1130,1020)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6840,4000)" name="AND Gate"/>
-    <comp lib="1" loc="(4340,3120)" name="AND Gate"/>
-    <comp lib="1" loc="(6320,2080)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(6490,560)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6290,3370)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(960,3970)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2690,5530)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6750,1390)" name="XOR Gate"/>
-    <comp lib="1" loc="(6580,4680)" name="AND Gate"/>
-    <comp lib="1" loc="(4340,3240)" name="AND Gate"/>
-    <comp lib="1" loc="(6360,560)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(4460,6420)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="5" loc="(6650,6200)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(3610,6040)" name="AND Gate"/>
-    <comp lib="1" loc="(5220,1370)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(7040,3450)" name="AND Gate"/>
-    <comp lib="1" loc="(6450,1050)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="5" loc="(6280,7230)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(1130,3570)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6650,4000)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(3870,1330)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6660,3370)" name="LED">
-      <a name="facing" val="east"/>
-    </comp>
-    <comp lib="1" loc="(4340,870)" name="AND Gate"/>
-    <comp lib="1" loc="(5310,1330)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6480,3800)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6450,6120)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(3970,1440)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(4340,5820)" name="AND Gate"/>
-    <comp lib="1" loc="(4690,1300)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6810,3250)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1610,6440)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3780,1370)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6540,5890)" name="LED">
       <a name="facing" val="east"/>
     </comp>
     <comp lib="0" loc="(1800,3260)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="1" loc="(5630,1240)" name="XOR Gate">
+    <comp lib="1" loc="(6320,7150)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(4340,3300)" name="AND Gate"/>
+    <comp lib="1" loc="(6840,1450)" name="AND Gate"/>
+    <comp lib="1" loc="(6730,560)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(1800,3990)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(2420,3960)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1320,3310)" name="NOT Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(3700,3600)" name="AND Gate"/>
-    <comp lib="1" loc="(3250,3990)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6400,1130)" name="LED">
+    <comp lib="5" loc="(6530,4030)" name="LED">
       <a name="facing" val="east"/>
     </comp>
-    <comp lib="1" loc="(5410,1300)" name="XOR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6780,820)" name="LED">
+    <comp lib="5" loc="(6290,820)" name="LED">
       <a name="facing" val="east"/>
     </comp>
-    <comp lib="1" loc="(3190,3450)" name="XNOR Gate"/>
-    <comp lib="5" loc="(6770,3650)" name="LED">
+    <comp lib="1" loc="(1610,6440)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1320,5830)" name="NOT Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6400,4030)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="0" loc="(5900,3920)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="5" loc="(6400,1840)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(6570,1400)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(4810,3820)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(1800,710)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(4340,3420)" name="AND Gate"/>
+    <comp lib="1" loc="(3190,980)" name="XNOR Gate"/>
+    <comp lib="1" loc="(4590,6480)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6530,6890)" name="LED">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(930,110)" name="Pin">
+    <comp lib="1" loc="(6960,6170)" name="AND Gate"/>
+    <comp lib="1" loc="(1130,6300)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6320,3950)" name="XOR Gate">
       <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="1" loc="(4810,1270)" name="AND Gate">
+    <comp lib="1" loc="(6480,3450)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(3610,970)" name="AND Gate"/>
-    <comp lib="1" loc="(6350,4160)" name="AND Gate">
+    <comp lib="0" loc="(570,110)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(1130,5970)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(5530,3820)" name="AND Gate">
+    <comp lib="1" loc="(5310,1410)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6650,6520)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(6850,900)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(2640,1270)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6320,1050)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(3780,6440)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6350,900)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1610,1370)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6450,3600)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1130,3690)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(4460,3900)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(240,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(6700,700)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(4690,6510)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3970,6510)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2690,3010)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(5310,1330)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(120,110)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6320,4630)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6950,3390)" name="XOR Gate"/>
+    <comp lib="1" loc="(6950,840)" name="XOR Gate"/>
+    <comp lib="1" loc="(6720,6890)" name="AND Gate"/>
+    <comp lib="1" loc="(4340,750)" name="AND Gate"/>
+    <comp lib="5" loc="(6280,6550)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1130,1020)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
     <comp lib="5" loc="(3740,3900)" name="LED">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="0" loc="(630,110)" name="Constant">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="5" loc="(4460,3900)" name="LED">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1800,1300)" name="XOR Gate">
+    <comp lib="1" loc="(2330,1370)" name="OR Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="5" loc="(6400,6910)" name="LED">
+    <comp lib="1" loc="(6320,6830)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(3190,6130)" name="XNOR Gate"/>
+    <comp lib="1" loc="(5220,3920)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6650,4000)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(2740,1240)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(5630,1240)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6570,3950)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(6780,820)" name="LED">
       <a name="facing" val="east"/>
     </comp>
-    <comp lib="1" loc="(3060,6440)" name="OR Gate">
+    <comp lib="1" loc="(6490,4620)" name="XOR Gate"/>
+    <comp lib="1" loc="(1130,3630)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(6330,3250)" name="XOR Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(420,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(5630,6310)" name="XOR Gate">
+    <comp lib="1" loc="(6480,6320)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(960,6310)" name="OR Gate">
+    <comp lib="1" loc="(2420,1410)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(5310,6480)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,1530)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(3020,3900)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6480,5970)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6410,820)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="5" loc="(2110,1050)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(6770,6170)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1700,1330)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6840,6520)" name="AND Gate"/>
+    <comp lib="1" loc="(6460,700)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(3190,5730)" name="XNOR Gate"/>
+    <comp lib="1" loc="(3190,660)" name="XNOR Gate"/>
+    <comp lib="1" loc="(4690,3850)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6350,1610)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4500,3920)" name="OR Gate">
       <a name="facing" val="west"/>
     </comp>
     <comp lib="5" loc="(6280,2160)" name="LED">
       <a name="facing" val="east"/>
     </comp>
-    <comp lib="1" loc="(6750,6460)" name="XOR Gate"/>
-    <comp lib="1" loc="(6350,5970)" name="AND Gate">
+    <comp lib="1" loc="(6450,1400)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(660,110)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(7040,3450)" name="AND Gate"/>
+    <comp lib="1" loc="(3610,3520)" name="AND Gate"/>
+    <comp lib="1" loc="(6480,3800)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6570,3600)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(3870,1410)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6490,7140)" name="XOR Gate"/>
+    <comp lib="5" loc="(1570,6420)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(3700,1050)" name="AND Gate"/>
+    <comp lib="1" loc="(3190,5890)" name="XNOR Gate"/>
+    <comp lib="1" loc="(6580,7200)" name="AND Gate"/>
+    <comp lib="0" loc="(5900,1370)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(450,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="5" loc="(6540,3370)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(4340,5640)" name="AND Gate"/>
+    <comp lib="1" loc="(6580,700)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(4810,1270)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,6210)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4340,3120)" name="AND Gate"/>
+    <comp lib="5" loc="(6400,1480)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="0" loc="(930,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(480,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(3370,6340)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2020,1240)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6780,3370)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="5" loc="(6660,3370)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(6350,1250)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6360,560)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(960,4030)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6530,6200)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(3430,3360)" name="AND Gate"/>
+    <comp lib="1" loc="(6750,1390)" name="XOR Gate"/>
+    <comp lib="5" loc="(2290,3900)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6450,6470)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(4910,1240)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3470,6310)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4090,6340)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6490,3110)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,6540)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,1350)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(4460,6420)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1700,6400)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3190,820)" name="XNOR Gate"/>
+    <comp lib="5" loc="(6280,6200)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(3520,5960)" name="AND Gate"/>
+    <comp lib="5" loc="(6530,1820)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(3970,3850)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3250,3850)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3150,6400)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6280,7230)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="5" loc="(6400,3680)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(3470,1240)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,6090)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2420,3880)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4690,1440)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6850,3450)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(2520,3850)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2690,460)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6780,5890)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(6450,1050)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(960,1540)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6850,5970)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1700,1410)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6620,3110)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6350,3450)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6540,5890)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(6450,6120)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1700,3960)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4590,3960)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(2290,1350)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(2420,6400)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6280,3680)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(6750,3940)" name="XOR Gate"/>
+    <comp lib="5" loc="(2110,6120)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(6290,7440)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(6770,3650)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(6630,1760)" name="XOR Gate"/>
+    <comp lib="1" loc="(960,6610)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6650,3680)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(5410,6510)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4340,5940)" name="AND Gate"/>
+    <comp lib="1" loc="(3190,3210)" name="XNOR Gate"/>
+    <comp lib="1" loc="(6580,4680)" name="AND Gate"/>
+    <comp lib="5" loc="(6290,4920)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(3370,1270)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
     <comp lib="0" loc="(720,110)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="1" loc="(1130,3900)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(1130,6600)" name="AND Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="1" loc="(6580,2130)" name="AND Gate"/>
-    <comp lib="0" loc="(90,110)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(4340,5640)" name="AND Gate"/>
-    <comp lib="5" loc="(3020,3900)" name="LED">
+    <comp lib="1" loc="(6870,3590)" name="XOR Gate"/>
+    <comp lib="1" loc="(6810,700)" name="XOR Gate">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(1920,3820)" name="AND Gate">
+    <comp lib="1" loc="(6700,3250)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6570,1050)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(5530,1270)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(2020,1240)" name="XOR Gate">
+    <comp lib="1" loc="(6690,6120)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1800,3850)" name="XOR Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(960,1420)" name="OR Gate">
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="5" loc="(6530,6550)" name="LED">
+    <comp lib="5" loc="(6400,6550)" name="LED">
       <a name="facing" val="east"/>
     </comp>
-    <comp lib="5" loc="(6650,6520)" name="LED">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(5630,3790)" name="XOR Gate">
+    <comp lib="1" loc="(6580,2130)" name="AND Gate"/>
+    <comp lib="1" loc="(6490,2070)" name="XOR Gate"/>
+    <comp lib="1" loc="(1130,4080)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(1130,6210)" name="AND Gate">
+    <comp lib="1" loc="(1130,6150)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(3370,1270)" name="AND Gate">
+    <comp lib="1" loc="(3340,5800)" name="AND Gate"/>
+    <comp lib="1" loc="(1130,3960)" name="AND Gate">
       <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4190,3790)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3150,1330)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3190,3530)" name="XNOR Gate"/>
+    <comp lib="1" loc="(6450,1760)" name="XOR Gate">
+      <a name="facing" val="south"/>
     </comp>
     <comp lib="1" loc="(3430,5880)" name="AND Gate"/>
-    <comp lib="1" loc="(6610,3450)" name="AND Gate">
+    <comp lib="1" loc="(3370,3820)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(4340,3420)" name="AND Gate"/>
-    <comp lib="5" loc="(6530,1820)" name="LED">
-      <a name="facing" val="north"/>
+    <comp lib="1" loc="(4190,6310)" name="XOR Gate">
+      <a name="facing" val="west"/>
     </comp>
-    <comp lib="1" loc="(6720,4370)" name="AND Gate"/>
-    <comp lib="5" loc="(3740,6420)" name="LED">
+    <comp lib="1" loc="(6620,560)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(2110,3600)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(3870,6400)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(1570,3900)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(2020,3790)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3190,5810)" name="XNOR Gate"/>
+    <comp lib="1" loc="(4690,6370)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,6420)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(7040,900)" name="AND Gate"/>
+    <comp lib="1" loc="(3250,6370)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3520,3440)" name="AND Gate"/>
+    <comp lib="5" loc="(6290,3370)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(2520,3990)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6450,3950)" name="XOR Gate">
       <a name="facing" val="south"/>
     </comp>
     <comp lib="5" loc="(3020,1350)" name="LED">
@@ -3811,11 +3177,638 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(1130,960)" name="AND Gate">
       <a name="facing" val="west"/>
     </comp>
+    <comp lib="1" loc="(2740,3790)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4590,1410)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3470,3790)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3430,810)" name="AND Gate"/>
+    <comp lib="1" loc="(1800,6370)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6450,6830)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(1570,1350)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1320,760)" name="NOT Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2520,6370)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6390,4860)" name="XOR Gate"/>
+    <comp lib="1" loc="(4910,6310)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6330,3250)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(2640,3820)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6700,5770)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(3250,3990)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6490,5630)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4690,3990)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(5310,3960)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6870,1040)" name="XOR Gate"/>
+    <comp lib="1" loc="(4590,3880)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1920,3820)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,3900)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1920,1270)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2330,3920)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3520,890)" name="AND Gate"/>
+    <comp lib="1" loc="(6480,1250)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2520,6510)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3780,1370)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3780,3920)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6810,3250)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1800,3990)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6350,5970)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6630,6830)" name="XOR Gate"/>
+    <comp lib="1" loc="(1130,5910)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,6030)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3870,3880)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6690,3600)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(6530,4370)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1800,1300)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1320,3310)" name="NOT Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2520,1440)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2420,1330)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3150,3960)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6580,5770)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(900,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(180,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(3190,3370)" name="XNOR Gate"/>
+    <comp lib="1" loc="(1800,1440)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6750,6460)" name="XOR Gate"/>
+    <comp lib="1" loc="(6870,6110)" name="XOR Gate"/>
+    <comp lib="0" loc="(420,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="5" loc="(6280,4030)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(3190,740)" name="XNOR Gate"/>
+    <comp lib="1" loc="(4340,630)" name="AND Gate"/>
+    <comp lib="1" loc="(960,4090)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(5630,3790)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6280,6910)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(5530,6340)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6350,4160)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(3020,6420)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6480,900)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3190,6050)" name="XNOR Gate"/>
+    <comp lib="1" loc="(6330,700)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1610,3920)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3970,1300)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(960,6310)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6530,3680)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(3870,1330)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6360,5630)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(960,3850)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,1140)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6690,1050)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6810,5770)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(4340,5820)" name="AND Gate"/>
+    <comp lib="1" loc="(1130,6360)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3970,1440)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3610,970)" name="AND Gate"/>
+    <comp lib="5" loc="(90,110)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6320,2080)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(4810,6340)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,3570)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4090,3820)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3060,1370)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4340,810)" name="AND Gate"/>
+    <comp lib="1" loc="(6620,5630)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3190,3290)" name="XNOR Gate"/>
+    <comp lib="1" loc="(3150,1410)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2420,3960)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(3740,6420)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(630,110)" name="Constant">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6610,5970)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6770,1100)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(3340,3280)" name="AND Gate"/>
+    <comp lib="1" loc="(4340,570)" name="AND Gate"/>
+    <comp lib="5" loc="(5180,3900)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(2740,6310)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4340,5880)" name="AND Gate"/>
+    <comp lib="0" loc="(780,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(5900,6440)" name="Constant">
+      <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(6350,6680)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(5530,3820)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
     <comp lib="1" loc="(3870,3960)" name="AND Gate">
       <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4340,3180)" name="AND Gate"/>
+    <comp lib="1" loc="(5410,3990)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6290,5890)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(4500,6440)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3250,1440)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4090,1270)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6660,5890)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(6320,6120)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6840,4000)" name="AND Gate"/>
+    <comp lib="1" loc="(1130,3450)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6960,3650)" name="AND Gate"/>
+    <comp lib="1" loc="(960,6370)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(5310,3880)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,1080)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(5220,6440)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(960,1360)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1700,3880)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(960,1420)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(810,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(845,73)" name="Text">
+      <a name="text" val="Dividend"/>
+    </comp>
+    <comp lib="1" loc="(6720,1820)" name="AND Gate"/>
+    <comp lib="1" loc="(1130,4020)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(5630,6310)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6490,560)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3970,3990)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6280,1840)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="5" loc="(6410,3370)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="5" loc="(6390,4680)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(6350,3800)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(2290,6420)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6730,5630)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,1470)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(870,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(6320,6470)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(6610,3450)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(1130,6600)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3190,5970)" name="XNOR Gate"/>
+    <comp lib="1" loc="(6320,4310)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(6540,820)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1130,6480)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6320,1760)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(3970,6370)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3700,3600)" name="AND Gate"/>
+    <comp lib="5" loc="(6290,2370)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(6530,1480)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="5" loc="(5180,1350)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(6400,1130)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(6950,5910)" name="XOR Gate"/>
+    <comp lib="1" loc="(3190,1060)" name="XNOR Gate"/>
+    <comp lib="1" loc="(3150,3880)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6570,6120)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(6280,1480)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(5410,6370)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4340,3240)" name="AND Gate"/>
+    <comp lib="1" loc="(5310,6400)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3610,6040)" name="AND Gate"/>
+    <comp lib="1" loc="(3700,6120)" name="AND Gate"/>
+    <comp lib="1" loc="(6330,5770)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(4590,1330)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(4460,1350)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(150,110)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="5" loc="(6410,5890)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(5220,1370)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6460,3250)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(6280,4710)" name="LED">
+      <a name="facing" val="east"/>
     </comp>
     <comp lib="1" loc="(4190,1240)" name="XOR Gate">
       <a name="facing" val="west"/>
     </comp>
+    <comp lib="1" loc="(4340,5760)" name="AND Gate"/>
+    <comp lib="1" loc="(960,3970)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4340,5700)" name="AND Gate"/>
+    <comp lib="1" loc="(6610,900)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(600,110)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(6460,5770)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(4340,870)" name="AND Gate"/>
+    <comp lib="1" loc="(2330,6440)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3060,6440)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2420,6480)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(1860,700)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(1920,6340)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4340,3360)" name="AND Gate"/>
+    <comp lib="5" loc="(6280,1130)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(5410,1300)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(960,6490)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6390,7200)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(6390,2310)" name="XOR Gate"/>
+    <comp lib="1" loc="(3250,6510)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6320,3600)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(6400,4390)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="5" loc="(6650,1130)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1130,3840)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6720,4370)" name="AND Gate"/>
+    <comp lib="5" loc="(6530,1130)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(3190,900)" name="XNOR Gate"/>
+    <comp lib="1" loc="(1800,6510)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6650,1450)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="6" loc="(401,75)" name="Text">
+      <a name="text" val="Quotient"/>
+    </comp>
+    <comp lib="1" loc="(2640,6340)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(960,6430)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3250,1300)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3150,6480)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(960,3910)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3870,6480)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2520,1300)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4590,6400)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2020,6310)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6360,3110)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4500,1370)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(4910,3790)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(960,6550)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(2690,5530)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6570,6470)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(3740,1350)" name="LED">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="5" loc="(6660,820)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(3190,3450)" name="XNOR Gate"/>
+    <comp lib="1" loc="(6350,6320)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(7040,5970)" name="AND Gate"/>
+    <comp lib="1" loc="(960,1480)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="6" loc="(161,75)" name="Text">
+      <a name="text" val="Remainder"/>
+    </comp>
+    <comp lib="5" loc="(6280,4390)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1700,6480)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6650,6200)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(1130,1410)" name="AND Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6530,6550)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="1" loc="(6960,1100)" name="AND Gate"/>
+    <comp lib="1" loc="(4340,690)" name="AND Gate"/>
+    <comp lib="1" loc="(5410,3850)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(6630,4310)" name="XOR Gate"/>
+    <comp lib="1" loc="(6390,7380)" name="XOR Gate"/>
+    <comp lib="1" loc="(6580,3250)" name="XOR Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(5410,1440)" name="XOR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="5" loc="(6400,6910)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="5" loc="(6390,2130)" name="LED">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(3190,3610)" name="XNOR Gate"/>
+    <comp lib="1" loc="(3060,3920)" name="OR Gate">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="1" loc="(3340,730)" name="AND Gate"/>
   </circuit>
 </project>
