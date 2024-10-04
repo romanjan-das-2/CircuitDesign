@@ -647,100 +647,104 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(840,1690)" to="(920,1690)"/>
     <wire from="(750,740)" to="(760,740)"/>
     <wire from="(340,870)" to="(340,1310)"/>
-    <comp lib="5" loc="(780,1060)" name="Button"/>
-    <comp lib="5" loc="(780,1080)" name="Button"/>
-    <comp lib="0" loc="(680,2010)" name="Constant">
-      <a name="facing" val="north"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="18" loc="(660,1940)" name="main"/>
-    <comp lib="11" loc="(1270,1600)" name="main"/>
-    <comp lib="5" loc="(780,1120)" name="Button"/>
-    <comp lib="5" loc="(780,970)" name="Button"/>
-    <comp lib="5" loc="(450,970)" name="Button"/>
-    <comp lib="5" loc="(830,580)" name="7-Segment Display"/>
-    <comp lib="8" loc="(470,1600)" name="main"/>
-    <comp lib="5" loc="(780,1020)" name="Button"/>
-    <comp lib="0" loc="(130,1030)" name="Pin">
+    <comp lib="5" loc="(1160,580)" name="7-Segment Display"/>
+    <comp lib="0" loc="(450,950)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="5" loc="(450,1120)" name="Button"/>
+    <comp lib="9" loc="(310,2080)" name="main"/>
+    <comp lib="5" loc="(780,1040)" name="Button"/>
+    <comp lib="5" loc="(780,1140)" name="Button"/>
     <comp lib="0" loc="(760,2010)" name="Constant">
       <a name="facing" val="north"/>
       <a name="value" val="0x0"/>
     </comp>
+    <comp lib="11" loc="(1270,1600)" name="main"/>
+    <comp lib="0" loc="(130,1030)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(780,1000)" name="Button"/>
+    <comp lib="5" loc="(780,1060)" name="Button"/>
+    <comp lib="5" loc="(450,1000)" name="Button"/>
+    <comp lib="5" loc="(830,580)" name="7-Segment Display"/>
     <comp lib="5" loc="(790,580)" name="7-Segment Display"/>
+    <comp lib="5" loc="(460,580)" name="7-Segment Display"/>
+    <comp lib="19" loc="(900,1050)" name="main"/>
+    <comp lib="5" loc="(450,970)" name="Button"/>
     <comp lib="0" loc="(130,1000)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
+    <comp lib="5" loc="(780,1080)" name="Button"/>
     <comp lib="5" loc="(780,1160)" name="Button"/>
-    <comp lib="10" loc="(1330,2070)" name="main"/>
-    <comp lib="0" loc="(130,940)" name="Pin">
+    <comp lib="0" loc="(680,2010)" name="Constant">
+      <a name="facing" val="north"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="6" loc="(70,975)" name="Text">
+      <a name="text" val="SUBTRACT"/>
+    </comp>
+    <comp lib="0" loc="(130,970)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="6" loc="(81,1034)" name="Text">
-      <a name="text" val="DIVIDE"/>
-    </comp>
-    <comp lib="17" loc="(450,790)" name="main"/>
-    <comp lib="18" loc="(1490,1370)" name="main"/>
-    <comp lib="0" loc="(780,930)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="5" loc="(450,1060)" name="Button"/>
-    <comp lib="5" loc="(450,1020)" name="Button"/>
-    <comp lib="9" loc="(310,2080)" name="main"/>
-    <comp lib="5" loc="(450,1080)" name="Button"/>
-    <comp lib="19" loc="(900,1050)" name="main"/>
-    <comp lib="5" loc="(1200,580)" name="7-Segment Display"/>
-    <comp lib="0" loc="(450,930)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
+    <comp lib="5" loc="(780,970)" name="Button"/>
+    <comp lib="5" loc="(420,580)" name="7-Segment Display"/>
+    <comp lib="5" loc="(450,1140)" name="Button"/>
+    <comp lib="18" loc="(1120,1230)" name="main"/>
+    <comp lib="17" loc="(820,790)" name="main"/>
+    <comp lib="5" loc="(450,1040)" name="Button"/>
+    <comp lib="5" loc="(450,1100)" name="Button"/>
     <comp lib="5" loc="(780,1100)" name="Button"/>
     <comp lib="0" loc="(720,2010)" name="Constant">
       <a name="facing" val="north"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="5" loc="(450,1140)" name="Button"/>
-    <comp lib="5" loc="(450,1000)" name="Button"/>
+    <comp lib="18" loc="(1120,1800)" name="main"/>
+    <comp lib="5" loc="(450,1060)" name="Button"/>
+    <comp lib="6" loc="(74,1005)" name="Text">
+      <a name="text" val="MULTIPLY"/>
+    </comp>
     <comp lib="0" loc="(740,2010)" name="Constant">
       <a name="facing" val="north"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="5" loc="(420,580)" name="7-Segment Display"/>
-    <comp lib="5" loc="(450,1120)" name="Button"/>
-    <comp lib="5" loc="(460,580)" name="7-Segment Display"/>
-    <comp lib="5" loc="(450,950)" name="Button"/>
+    <comp lib="5" loc="(780,1020)" name="Button"/>
+    <comp lib="0" loc="(780,930)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(450,1080)" name="Button"/>
+    <comp lib="0" loc="(450,930)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="18" loc="(660,1940)" name="main"/>
+    <comp lib="5" loc="(1200,580)" name="7-Segment Display"/>
+    <comp lib="8" loc="(470,1600)" name="main"/>
+    <comp lib="10" loc="(1330,2070)" name="main"/>
     <comp lib="0" loc="(700,2010)" name="Constant">
       <a name="facing" val="north"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="6" loc="(74,1005)" name="Text">
-      <a name="text" val="MULTIPLY"/>
+    <comp lib="17" loc="(1190,790)" name="main"/>
+    <comp lib="6" loc="(90,945)" name="Text">
+      <a name="text" val="ADD"/>
     </comp>
-    <comp lib="5" loc="(1160,580)" name="7-Segment Display"/>
-    <comp lib="17" loc="(820,790)" name="main"/>
-    <comp lib="19" loc="(570,1050)" name="main"/>
-    <comp lib="5" loc="(450,1040)" name="Button"/>
-    <comp lib="6" loc="(70,975)" name="Text">
-      <a name="text" val="SUBTRACT"/>
-    </comp>
-    <comp lib="5" loc="(450,1160)" name="Button"/>
-    <comp lib="0" loc="(130,970)" name="Pin">
+    <comp lib="5" loc="(450,1020)" name="Button"/>
+    <comp lib="5" loc="(780,1120)" name="Button"/>
+    <comp lib="0" loc="(130,940)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="5" loc="(450,1100)" name="Button"/>
-    <comp lib="18" loc="(1120,1230)" name="main"/>
-    <comp lib="17" loc="(1190,790)" name="main"/>
-    <comp lib="5" loc="(780,950)" name="Button"/>
-    <comp lib="18" loc="(1120,1800)" name="main"/>
+    <comp lib="18" loc="(1490,1370)" name="main"/>
     <comp lib="0" loc="(780,2010)" name="Constant">
       <a name="facing" val="north"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="5" loc="(780,1040)" name="Button"/>
-    <comp lib="6" loc="(90,945)" name="Text">
-      <a name="text" val="ADD"/>
+    <comp lib="6" loc="(81,1034)" name="Text">
+      <a name="text" val="DIVIDE"/>
     </comp>
-    <comp lib="5" loc="(780,1140)" name="Button"/>
-    <comp lib="5" loc="(780,1000)" name="Button"/>
+    <comp lib="5" loc="(450,1160)" name="Button"/>
+    <comp lib="0" loc="(780,950)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="17" loc="(450,790)" name="main"/>
+    <comp lib="19" loc="(570,1050)" name="main"/>
   </circuit>
 </project>
