@@ -929,7 +929,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="addrWidth" val="6"/>
       <a name="dataWidth" val="19"/>
       <a name="contents">addr/data: 6 19
-11ad 21ad 41ad
+0 511a1 52187 94a6 40005
 </a>
     </comp>
     <comp lib="0" loc="(500,980)" name="Splitter">
