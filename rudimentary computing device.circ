@@ -1005,9 +1005,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="addrWidth" val="6"/>
       <a name="dataWidth" val="32"/>
       <a name="contents">addr/data: 6 32
-0 511a1 0 52187 0 94a6 0 0
-51a87 0 40005 0 32400 10*0 40005 0
-51a87 0 32400
+24984c 1ffffff 7fffffff
 </a>
     </comp>
     <comp lib="13" loc="(470,2780)" name="main"/>
@@ -1195,7 +1193,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="text" val="A"/>
     </comp>
     <comp lib="6" loc="(110,3406)" name="Text">
-      <a name="text" val="Set value to 1 after initalization"/>
+      <a name="text" val="Set value to 1 after initialization"/>
     </comp>
     <comp lib="0" loc="(570,1750)" name="Splitter">
       <a name="facing" val="north"/>
