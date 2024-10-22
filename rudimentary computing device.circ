@@ -1349,7 +1349,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="contents">addr/data: 6 32
 0 b8301800 b8700000 4828000c 4850000a 1028000c 4830000a 0
 828120c 4830000a 0 828140c 4800180a 18681414 4800381a 824341c
-4800381a c0681412 31653212 c068141a
+4800381a 31652212 c000141a
 </a>
     </comp>
     <comp lib="0" loc="(160,3320)" name="Pin">
