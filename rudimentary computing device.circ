@@ -3,16 +3,19 @@
 This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
 <lib desc="#Wiring" name="0">
     <tool name="Splitter">
+      <a name="facing" val="north"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="6"/>
     </tool>
     <tool name="Constant">
       <a name="facing" val="north"/>
-      <a name="value" val="0x0"/>
     </tool>
   </lib>
   <lib desc="#Gates" name="1">
     <tool name="XOR Gate">
+      <a name="facing" val="west"/>
+    </tool>
+    <tool name="Controlled Buffer">
       <a name="facing" val="west"/>
     </tool>
   </lib>
@@ -56,6 +59,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   <lib desc="file#and operator.circ" name="19"/>
   <lib desc="file#or operator.circ" name="20"/>
   <lib desc="file#memory.circ" name="21"/>
+  <lib desc="file#memory_alt.circ" name="22"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -963,171 +967,30 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(470,3410)" to="(540,3410)"/>
     <wire from="(1060,1040)" to="(1080,1040)"/>
     <wire from="(1490,2960)" to="(1490,3000)"/>
-    <comp lib="1" loc="(360,3230)" name="AND Gate"/>
-    <comp lib="0" loc="(670,4060)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(1560,180)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="6" loc="(215,4054)" name="Text">
-      <a name="text" val="Output"/>
-    </comp>
-    <comp lib="1" loc="(890,3740)" name="AND Gate"/>
-    <comp lib="14" loc="(1600,770)" name="main"/>
-    <comp lib="19" loc="(720,220)" name="main"/>
-    <comp lib="0" loc="(740,3970)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="incoming" val="16"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="1"/>
-      <a name="bit11" val="1"/>
-      <a name="bit12" val="1"/>
-      <a name="bit13" val="1"/>
-      <a name="bit14" val="1"/>
-      <a name="bit15" val="1"/>
-    </comp>
-    <comp lib="0" loc="(760,1440)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(1530,1790)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(1650,30)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(340,4060)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="width" val="6"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(270,4060)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="output" val="true"/>
-      <a name="width" val="6"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1540,1310)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(360,3430)" name="OR Gate"/>
-    <comp lib="0" loc="(1540,1200)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(570,3740)" name="AND Gate"/>
-    <comp lib="0" loc="(800,2340)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(860,3970)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="incoming" val="16"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="1"/>
-      <a name="bit11" val="1"/>
-      <a name="bit12" val="1"/>
-      <a name="bit13" val="1"/>
-      <a name="bit14" val="1"/>
-      <a name="bit15" val="1"/>
-    </comp>
-    <comp lib="14" loc="(1600,1360)" name="main"/>
-    <comp lib="0" loc="(250,3440)" name="Clock"/>
+    <comp lib="1" loc="(420,2900)" name="AND Gate"/>
     <comp lib="14" loc="(1600,2750)" name="main"/>
-    <comp lib="0" loc="(740,1570)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="14" loc="(1600,2190)" name="main"/>
-    <comp lib="21" loc="(1240,3060)" name="main"/>
-    <comp lib="6" loc="(339,4033)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="0" loc="(250,3660)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(1560,1510)" name="Constant">
+    <comp lib="5" loc="(190,3870)" name="7-Segment Display"/>
+    <comp lib="7" loc="(470,3490)" name="main"/>
+    <comp lib="17" loc="(450,3980)" name="main"/>
+    <comp lib="0" loc="(1520,1510)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="0" loc="(510,3850)" name="Splitter">
+    <comp lib="5" loc="(800,3870)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1160,2940)" name="Splitter">
       <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="0" loc="(1580,1850)" name="Splitter">
-      <a name="facing" val="north"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(1550,1790)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="6" loc="(200,3686)" name="Text">
       <a name="text" val="Set value to 1 after initialization"/>
     </comp>
-    <comp lib="14" loc="(1600,530)" name="main"/>
-    <comp lib="14" loc="(1600,1670)" name="main"/>
     <comp lib="6" loc="(529,4035)" name="Text">
       <a name="text" val="A"/>
-    </comp>
-    <comp lib="0" loc="(1580,1570)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(1560,1620)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(530,4060)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(360,3310)" name="AND Gate"/>
-    <comp lib="0" loc="(1460,2940)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="14" loc="(1600,230)" name="main"/>
-    <comp lib="14" loc="(1600,1950)" name="main"/>
-    <comp lib="6" loc="(481,4053)" name="Text">
-      <a name="text" val="Input"/>
-    </comp>
-    <comp lib="0" loc="(1540,1900)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(250,3970)" name="Splitter">
       <a name="facing" val="north"/>
@@ -1148,458 +1011,42 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit14" val="1"/>
       <a name="bit15" val="1"/>
     </comp>
-    <comp lib="17" loc="(580,3980)" name="main"/>
-    <comp lib="0" loc="(1520,1200)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="6" loc="(172,3564)" name="Text">
-      <a name="text" val="Counter"/>
-    </comp>
-    <comp lib="0" loc="(1560,1900)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(300,3300)" name="NOT Gate"/>
-    <comp lib="1" loc="(1400,1050)" name="AND Gate"/>
-    <comp lib="5" loc="(640,3870)" name="7-Segment Display"/>
-    <comp lib="0" loc="(1540,480)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(1130,1050)" name="AND Gate"/>
-    <comp lib="5" loc="(250,3300)" name="Button"/>
-    <comp lib="6" loc="(668,4035)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="7" loc="(470,3490)" name="main"/>
-    <comp lib="0" loc="(380,3850)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="6" loc="(213,3305)" name="Text">
-      <a name="text" val="Go"/>
-    </comp>
-    <comp lib="0" loc="(140,3850)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="0" loc="(990,2890)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(920,2700)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="5" loc="(270,3870)" name="7-Segment Display"/>
-    <comp lib="13" loc="(660,3060)" name="main"/>
-    <comp lib="0" loc="(1560,2140)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(490,3970)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="incoming" val="16"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="1"/>
-      <a name="bit11" val="1"/>
-      <a name="bit12" val="1"/>
-      <a name="bit13" val="1"/>
-      <a name="bit14" val="1"/>
-      <a name="bit15" val="1"/>
-    </comp>
-    <comp lib="0" loc="(750,2090)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="17" loc="(820,3980)" name="main"/>
-    <comp lib="5" loc="(310,3870)" name="7-Segment Display"/>
-    <comp lib="0" loc="(1560,1200)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(650,3740)" name="AND Gate"/>
-    <comp lib="0" loc="(1010,2940)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="6" loc="(602,4036)" name="Text">
-      <a name="text" val="B"/>
-    </comp>
-    <comp lib="14" loc="(750,2430)" name="main"/>
-    <comp lib="5" loc="(250,3620)" name="Button"/>
-    <comp lib="0" loc="(600,4060)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(1560,480)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(740,1850)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(260,3850)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="0" loc="(1540,1790)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(780,2340)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="5" loc="(520,3870)" name="7-Segment Display"/>
     <comp lib="6" loc="(207,3446)" name="Text">
       <a name="text" val="Clock"/>
     </comp>
-    <comp lib="0" loc="(1550,1510)" name="Constant">
+    <comp lib="6" loc="(409,4034)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="0" loc="(630,3850)" name="Splitter">
       <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
     </comp>
-    <comp lib="1" loc="(1220,1050)" name="AND Gate"/>
-    <comp lib="0" loc="(1540,2530)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="18"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="1"/>
-      <a name="bit11" val="1"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="2"/>
-      <a name="bit16" val="2"/>
-      <a name="bit17" val="2"/>
-    </comp>
-    <comp lib="14" loc="(1600,370)" name="main"/>
-    <comp lib="0" loc="(1530,1200)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(1610,2940)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(1520,1790)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(1580,1260)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="1" loc="(950,1050)" name="AND Gate"/>
-    <comp lib="0" loc="(770,2290)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(1310,2940)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(780,2700)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="1" loc="(490,3740)" name="AND Gate"/>
-    <comp lib="0" loc="(1560,50)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(1540,180)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(230,3950)" name="Splitter">
+    <comp lib="14" loc="(1600,1670)" name="main"/>
+    <comp lib="0" loc="(470,3950)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="10" loc="(750,1350)" name="main"/>
-    <comp lib="1" loc="(730,3740)" name="AND Gate"/>
-    <comp lib="0" loc="(1560,1790)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(260,3560)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="6"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(1560,1310)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(370,3970)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="incoming" val="16"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="1"/>
-      <a name="bit11" val="1"/>
-      <a name="bit12" val="1"/>
-      <a name="bit13" val="1"/>
-      <a name="bit14" val="1"/>
-      <a name="bit15" val="1"/>
-    </comp>
-    <comp lib="0" loc="(1540,2700)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="17" loc="(210,3980)" name="main"/>
-    <comp lib="12" loc="(750,1660)" name="main"/>
-    <comp lib="0" loc="(1550,1200)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(820,2340)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="5" loc="(760,3870)" name="7-Segment Display"/>
-    <comp lib="0" loc="(600,3950)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="0" loc="(620,3970)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="incoming" val="16"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="1"/>
-      <a name="bit11" val="1"/>
-      <a name="bit12" val="1"/>
-      <a name="bit13" val="1"/>
-      <a name="bit14" val="1"/>
-      <a name="bit15" val="1"/>
-    </comp>
-    <comp lib="0" loc="(840,3840)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(880,1170)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(1630,30)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(1520,1510)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="8" loc="(860,2790)" name="main"/>
-    <comp lib="0" loc="(730,1140)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="20" loc="(720,90)" name="main"/>
-    <comp lib="0" loc="(760,2030)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(680,4100)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="18"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="1"/>
-      <a name="bit11" val="1"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="2"/>
-      <a name="bit16" val="2"/>
-      <a name="bit17" val="2"/>
-    </comp>
-    <comp lib="0" loc="(840,3950)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="5" loc="(190,3870)" name="7-Segment Display"/>
-    <comp lib="6" loc="(269,4035)" name="Text">
-      <a name="text" val="A"/>
-    </comp>
-    <comp lib="5" loc="(390,3870)" name="7-Segment Display"/>
-    <comp lib="0" loc="(860,2940)" name="Splitter">
-      <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="5" loc="(800,3870)" name="7-Segment Display"/>
-    <comp lib="4" loc="(840,3560)" name="ROM">
-      <a name="addrWidth" val="6"/>
-      <a name="dataWidth" val="32"/>
-      <a name="contents">addr/data: 6 32
-0 b8301800 6024140c c000000a
-</a>
-    </comp>
-    <comp lib="21" loc="(1540,3060)" name="main"/>
     <comp lib="0" loc="(1540,1620)" name="Constant">
       <a name="facing" val="south"/>
       <a name="width" val="6"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="0" loc="(1160,2940)" name="Splitter">
+    <comp lib="5" loc="(250,3270)" name="LED">
+      <a name="facing" val="east"/>
+    </comp>
+    <comp lib="14" loc="(1600,1950)" name="main"/>
+    <comp lib="0" loc="(1630,30)" name="Constant">
       <a name="facing" val="south"/>
-      <a name="fanout" val="6"/>
-      <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="5" loc="(150,3870)" name="7-Segment Display"/>
-    <comp lib="5" loc="(560,3870)" name="7-Segment Display"/>
-    <comp lib="0" loc="(940,3510)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="32"/>
-      <a name="incoming" val="32"/>
-    </comp>
-    <comp lib="1" loc="(1310,1050)" name="AND Gate"/>
-    <comp lib="6" loc="(409,4034)" name="Text">
-      <a name="text" val="C"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="14" loc="(1600,2590)" name="main"/>
-    <comp lib="0" loc="(1540,2140)" name="Constant">
+    <comp lib="0" loc="(740,1570)" name="Splitter">
       <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="17" loc="(330,3980)" name="main"/>
-    <comp lib="0" loc="(1550,1790)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="1" loc="(420,2900)" name="AND Gate"/>
-    <comp lib="5" loc="(430,3870)" name="7-Segment Display"/>
-    <comp lib="16" loc="(920,760)" name="main"/>
-    <comp lib="0" loc="(1540,1510)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="21" loc="(940,3060)" name="main"/>
-    <comp lib="14" loc="(1600,100)" name="main"/>
-    <comp lib="11" loc="(720,1940)" name="main"/>
-    <comp lib="18" loc="(780,510)" name="main"/>
-    <comp lib="17" loc="(450,3980)" name="main"/>
-    <comp lib="0" loc="(560,3370)" name="Splitter">
-      <a name="facing" val="west"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="6"/>
-    </comp>
-    <comp lib="0" loc="(350,3950)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
-    </comp>
-    <comp lib="5" loc="(680,3870)" name="7-Segment Display"/>
-    <comp lib="0" loc="(420,4100)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="18"/>
-      <a name="bit1" val="0"/>
-      <a name="bit2" val="0"/>
-      <a name="bit3" val="0"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="1"/>
-      <a name="bit7" val="1"/>
-      <a name="bit8" val="1"/>
-      <a name="bit9" val="1"/>
-      <a name="bit10" val="1"/>
-      <a name="bit11" val="1"/>
-      <a name="bit12" val="2"/>
-      <a name="bit13" val="2"/>
-      <a name="bit14" val="2"/>
-      <a name="bit15" val="2"/>
-      <a name="bit16" val="2"/>
-      <a name="bit17" val="2"/>
-    </comp>
-    <comp lib="17" loc="(700,3980)" name="main"/>
-    <comp lib="0" loc="(1670,30)" name="Constant">
-      <a name="facing" val="south"/>
-      <a name="width" val="6"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="6" loc="(199,3624)" name="Text">
-      <a name="text" val="Initialise"/>
-    </comp>
-    <comp lib="0" loc="(470,3950)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
     </comp>
     <comp lib="0" loc="(810,2510)" name="Splitter">
       <a name="facing" val="north"/>
@@ -1623,62 +1070,619 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="bit16" val="2"/>
       <a name="bit17" val="2"/>
     </comp>
-    <comp lib="0" loc="(740,1260)" name="Splitter">
+    <comp lib="0" loc="(1540,50)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="5" loc="(760,3870)" name="7-Segment Display"/>
+    <comp lib="16" loc="(920,760)" name="main"/>
+    <comp lib="0" loc="(1580,1570)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(820,2340)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1540,2700)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="18" loc="(780,510)" name="main"/>
+    <comp lib="0" loc="(350,3950)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1460,2940)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="6"/>
     </comp>
-    <comp lib="0" loc="(1530,1510)" name="Constant">
+    <comp lib="0" loc="(880,1170)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(760,2030)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(250,3440)" name="Clock"/>
+    <comp lib="0" loc="(990,2890)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="14" loc="(1600,1360)" name="main"/>
+    <comp lib="0" loc="(680,4100)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="18"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="2"/>
+      <a name="bit16" val="2"/>
+      <a name="bit17" val="2"/>
+    </comp>
+    <comp lib="17" loc="(820,3980)" name="main"/>
+    <comp lib="0" loc="(1530,1200)" name="Constant">
       <a name="facing" val="south"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="0" loc="(750,3850)" name="Splitter">
+    <comp lib="0" loc="(1560,180)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="17" loc="(210,3980)" name="main"/>
+    <comp lib="0" loc="(780,2340)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(560,3370)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(770,2290)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(740,1850)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(760,1440)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="13" loc="(660,3060)" name="main"/>
+    <comp lib="1" loc="(810,3740)" name="AND Gate"/>
+    <comp lib="6" loc="(481,4053)" name="Text">
+      <a name="text" val="Input"/>
+    </comp>
+    <comp lib="0" loc="(1560,1510)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1650,30)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="14" loc="(1600,770)" name="main"/>
+    <comp lib="0" loc="(600,4060)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(430,3870)" name="7-Segment Display"/>
+    <comp lib="0" loc="(230,3950)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(260,3850)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="5" loc="(250,3270)" name="LED">
-      <a name="facing" val="east"/>
+    <comp lib="0" loc="(1540,480)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(510,3850)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1560,1790)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="14" loc="(1600,2190)" name="main"/>
+    <comp lib="22" loc="(1250,3060)" name="main"/>
+    <comp lib="0" loc="(1540,1510)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="14" loc="(1600,530)" name="main"/>
+    <comp lib="0" loc="(1610,2940)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="5" loc="(390,3870)" name="7-Segment Display"/>
+    <comp lib="1" loc="(650,3740)" name="AND Gate"/>
+    <comp lib="6" loc="(199,3624)" name="Text">
+      <a name="text" val="Initialise"/>
+    </comp>
+    <comp lib="5" loc="(640,3870)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1560,1200)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="6" loc="(172,3564)" name="Text">
+      <a name="text" val="Counter"/>
+    </comp>
+    <comp lib="0" loc="(730,1140)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="11" loc="(720,1940)" name="main"/>
+    <comp lib="0" loc="(1560,480)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1580,1260)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(1010,2940)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="8" loc="(860,2790)" name="main"/>
+    <comp lib="0" loc="(1540,180)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(360,3310)" name="AND Gate"/>
+    <comp lib="0" loc="(1550,1510)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(780,2700)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(860,3970)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="incoming" val="16"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
     </comp>
     <comp lib="9" loc="(760,2190)" name="main"/>
+    <comp lib="6" loc="(602,4036)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="0" loc="(800,2340)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1540,2530)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="18"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="2"/>
+      <a name="bit16" val="2"/>
+      <a name="bit17" val="2"/>
+    </comp>
+    <comp lib="5" loc="(150,3870)" name="7-Segment Display"/>
     <comp lib="0" loc="(760,1750)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="6"/>
     </comp>
-    <comp lib="0" loc="(630,3850)" name="Splitter">
+    <comp lib="5" loc="(680,3870)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1540,1790)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="12" loc="(750,1660)" name="main"/>
+    <comp lib="1" loc="(890,3740)" name="AND Gate"/>
+    <comp lib="6" loc="(339,4033)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="0" loc="(530,4060)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="5" loc="(560,3870)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1540,1200)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(380,3850)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="8"/>
       <a name="incoming" val="8"/>
     </comp>
-    <comp lib="0" loc="(720,3950)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="8"/>
-      <a name="incoming" val="8"/>
+    <comp lib="22" loc="(950,3060)" name="main"/>
+    <comp lib="0" loc="(1560,1620)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
     </comp>
+    <comp lib="1" loc="(730,3740)" name="AND Gate"/>
+    <comp lib="0" loc="(370,3970)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="incoming" val="16"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+    </comp>
+    <comp lib="0" loc="(1550,1200)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="14" loc="(1600,370)" name="main"/>
+    <comp lib="0" loc="(1560,1310)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1560,2140)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1520,1200)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(1220,1050)" name="AND Gate"/>
+    <comp lib="0" loc="(250,3660)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="6" loc="(213,3305)" name="Text">
+      <a name="text" val="Go"/>
+    </comp>
+    <comp lib="6" loc="(215,4054)" name="Text">
+      <a name="text" val="Output"/>
+    </comp>
+    <comp lib="14" loc="(1600,100)" name="main"/>
+    <comp lib="6" loc="(668,4035)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="0" loc="(260,3560)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="6"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(570,3740)" name="AND Gate"/>
     <comp lib="0" loc="(410,4060)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
       <a name="width" val="6"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="0" loc="(1560,1900)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(840,3950)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="17" loc="(700,3980)" name="main"/>
+    <comp lib="14" loc="(750,2430)" name="main"/>
+    <comp lib="20" loc="(720,90)" name="main"/>
+    <comp lib="0" loc="(750,3850)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(920,2700)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(1540,1310)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(1520,1790)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(720,3950)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="5" loc="(250,3620)" name="Button"/>
+    <comp lib="1" loc="(1040,1050)" name="AND Gate"/>
     <comp lib="15" loc="(760,930)" name="main"/>
+    <comp lib="1" loc="(360,3230)" name="AND Gate"/>
+    <comp lib="19" loc="(720,220)" name="main"/>
+    <comp lib="0" loc="(600,3950)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
     <comp lib="0" loc="(810,960)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="6"/>
       <a name="incoming" val="6"/>
     </comp>
+    <comp lib="0" loc="(840,3840)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(940,3510)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="32"/>
+      <a name="incoming" val="32"/>
+    </comp>
+    <comp lib="0" loc="(420,4100)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="18"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="2"/>
+      <a name="bit13" val="2"/>
+      <a name="bit14" val="2"/>
+      <a name="bit15" val="2"/>
+      <a name="bit16" val="2"/>
+      <a name="bit17" val="2"/>
+    </comp>
+    <comp lib="0" loc="(340,4060)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="width" val="6"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(860,2940)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(620,3970)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="incoming" val="16"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+    </comp>
+    <comp lib="0" loc="(1580,1850)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="5" loc="(270,3870)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1310,2940)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="6" loc="(269,4035)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="0" loc="(1530,1510)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(270,4060)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="output" val="true"/>
+      <a name="width" val="6"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(360,3430)" name="OR Gate"/>
+    <comp lib="17" loc="(330,3980)" name="main"/>
+    <comp lib="1" loc="(950,1050)" name="AND Gate"/>
     <comp lib="0" loc="(1560,2700)" name="Constant">
       <a name="facing" val="south"/>
       <a name="width" val="6"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="1" loc="(810,3740)" name="AND Gate"/>
-    <comp lib="0" loc="(1540,50)" name="Constant">
+    <comp lib="0" loc="(670,4060)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="14" loc="(1600,230)" name="main"/>
+    <comp lib="5" loc="(310,3870)" name="7-Segment Display"/>
+    <comp lib="0" loc="(1530,1790)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="5" loc="(520,3870)" name="7-Segment Display"/>
+    <comp lib="0" loc="(740,1260)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="0" loc="(140,3850)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="8"/>
+      <a name="incoming" val="8"/>
+    </comp>
+    <comp lib="0" loc="(1670,30)" name="Constant">
       <a name="facing" val="south"/>
       <a name="width" val="6"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="1" loc="(1040,1050)" name="AND Gate"/>
+    <comp lib="1" loc="(300,3300)" name="NOT Gate"/>
+    <comp lib="5" loc="(250,3300)" name="Button"/>
+    <comp lib="22" loc="(1550,3060)" name="main"/>
+    <comp lib="0" loc="(750,2090)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+    </comp>
+    <comp lib="10" loc="(750,1350)" name="main"/>
+    <comp lib="1" loc="(1310,1050)" name="AND Gate"/>
+    <comp lib="1" loc="(1130,1050)" name="AND Gate"/>
+    <comp lib="17" loc="(580,3980)" name="main"/>
+    <comp lib="0" loc="(1560,50)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(740,3970)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="incoming" val="16"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+    </comp>
+    <comp lib="0" loc="(1540,1900)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="1" loc="(1400,1050)" name="AND Gate"/>
+    <comp lib="0" loc="(490,3970)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="incoming" val="16"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="0"/>
+      <a name="bit5" val="0"/>
+      <a name="bit6" val="0"/>
+      <a name="bit7" val="0"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
+    </comp>
+    <comp lib="1" loc="(490,3740)" name="AND Gate"/>
+    <comp lib="0" loc="(1540,2140)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="width" val="6"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="4" loc="(840,3560)" name="ROM">
+      <a name="addrWidth" val="6"/>
+      <a name="dataWidth" val="32"/>
+      <a name="contents">addr/data: 6 32
+0 b8301800 6024140c c000000a
+</a>
+    </comp>
   </circuit>
 </project>

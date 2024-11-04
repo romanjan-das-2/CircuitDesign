@@ -73,6 +73,41 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <rect fill="none" height="70" stroke="#000000" stroke-width="2" width="290" x="50" y="40"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="121" y="57">Data Out</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="272" y="56">Data In</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="89" y="100">Alt</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="169" y="100">Address</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="229" y="102">W</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="288" y="102">P</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="249" y="102">R</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="66" y="74">Clk</text>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="197" y="77">RAM ALT</text>
+      <circ-port height="10" pin="510,1060" width="10" x="65" y="35"/>
+      <circ-port height="10" pin="530,1060" width="10" x="85" y="35"/>
+      <circ-port height="10" pin="550,1060" width="10" x="105" y="35"/>
+      <circ-port height="10" pin="570,1060" width="10" x="125" y="35"/>
+      <circ-port height="10" pin="590,1060" width="10" x="145" y="35"/>
+      <circ-port height="10" pin="610,1060" width="10" x="165" y="35"/>
+      <circ-port height="8" pin="110,970" width="8" x="66" y="106"/>
+      <circ-port height="8" pin="130,970" width="8" x="86" y="106"/>
+      <circ-port height="8" pin="150,970" width="8" x="106" y="106"/>
+      <circ-port height="8" pin="190,970" width="8" x="146" y="106"/>
+      <circ-port height="8" pin="210,970" width="8" x="166" y="106"/>
+      <circ-port height="8" pin="230,970" width="8" x="186" y="106"/>
+      <circ-port height="8" pin="400,970" width="8" x="46" y="66"/>
+      <circ-port height="8" pin="540,970" width="8" x="226" y="106"/>
+      <circ-port height="8" pin="560,970" width="8" x="246" y="106"/>
+      <circ-port height="8" pin="580,970" width="8" x="286" y="106"/>
+      <circ-port height="8" pin="660,970" width="8" x="216" y="36"/>
+      <circ-port height="8" pin="680,970" width="8" x="236" y="36"/>
+      <circ-port height="8" pin="700,970" width="8" x="256" y="36"/>
+      <circ-port height="8" pin="720,970" width="8" x="276" y="36"/>
+      <circ-port height="8" pin="740,970" width="8" x="296" y="36"/>
+      <circ-port height="8" pin="760,970" width="8" x="316" y="36"/>
+      <circ-anchor facing="east" height="6" width="6" x="197" y="67"/>
+    </appear>
     <wire from="(790,370)" to="(790,510)"/>
     <wire from="(520,280)" to="(520,290)"/>
     <wire from="(800,430)" to="(800,500)"/>
